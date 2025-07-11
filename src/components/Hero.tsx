@@ -15,25 +15,17 @@ const Hero = () => {
       {/* Navigation Bar */}
       <nav className="relative z-30 flex items-center justify-between p-8 lg:p-12">
         {/* Logo */}
-        <div className="text-white font-light tracking-wide text-xl">vastpoint®</div>
+        <div className="text-white font-light tracking-wide text-xl">vastpoint</div>
 
         {/* Center Navigation Links */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#mission" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">
-            Mission
-          </a>
-          <a href="#chapter" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">
-            Chapter
-          </a>
-          <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">
-            About
-          </a>
+          <a href="#mission" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
+          <a href="#chapter" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
+          <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
         </div>
 
         {/* CTA Button */}
-        <button className="px-6 py-3 rounded-full border border-white/30 text-white/80 hover:border-white/50 hover:text-white transition-all duration-300 font-light tracking-wide">
-          Watch Trailer
-        </button>
+        
       </nav>
 
       {/* Main Content Area */}
@@ -46,16 +38,13 @@ const Hero = () => {
 
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
-            <div className="text-white">Survive the Storm.</div>
+            <div className="text-white">We are an early stage fund backing Poland's boldest tech founders</div>
             <div className="text-white/90">Rule the Desert.</div>
           </h1>
 
           {/* Paragraph */}
           <div className="lg:max-w-md">
-            <p className="text-white/70 font-light leading-relaxed text-lg">
-              When the sand settles and the dust clears, only the strongest remain standing. 
-              In this wasteland, survival isn't just about endurance—it's about domination.
-            </p>
+            <p className="text-white/70 font-light leading-relaxed text-lg">From groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we backFrom groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we back your unfair advantage. your unfair advantage.</p>
           </div>
         </div>
       </div>
