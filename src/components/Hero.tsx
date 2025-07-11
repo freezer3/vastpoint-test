@@ -1,22 +1,10 @@
-
 import React from 'react';
 import { Award } from 'lucide-react';
-
 const Hero = () => {
-  return (
-    <div className="relative min-h-screen flex flex-col overflow-hidden">
+  return <div className="relative min-h-screen flex flex-col overflow-hidden">
       {/* Video Background */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover z-0"
-      >
-        <source
-          src="https://cdn.midjourney.com/video/cb84f296-92a0-4a37-a0e3-1c9c95299488/0.mp4"
-          type="video/mp4"
-        />
+      <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover z-0">
+        <source src="https://cdn.midjourney.com/video/cb84f296-92a0-4a37-a0e3-1c9c95299488/0.mp4" type="video/mp4" />
         {/* Fallback for browsers that don't support video */}
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-black"></div>
       </video>
@@ -27,28 +15,17 @@ const Hero = () => {
       {/* Navigation Bar */}
       <nav className="relative z-30 flex items-center justify-between p-8 lg:p-12">
         {/* Logo */}
-        <div className="text-white font-light tracking-wide text-xl">
-          Sandstorm®
-        </div>
+        <div className="text-white font-light tracking-wide text-xl">vastpoint®</div>
 
         {/* Center Navigation Links */}
         <div className="hidden md:flex items-center space-x-8">
-          <a
-            href="#mission"
-            className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
-          >
+          <a href="#mission" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">
             Mission
           </a>
-          <a
-            href="#chapter"
-            className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
-          >
+          <a href="#chapter" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">
             Chapter
           </a>
-          <a
-            href="#about"
-            className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
-          >
+          <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">
             About
           </a>
         </div>
@@ -82,8 +59,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Hero;
