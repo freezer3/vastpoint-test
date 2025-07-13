@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award } from 'lucide-react';
+import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
   return <div className="relative min-h-screen flex flex-col overflow-hidden">
       {/* Video Background */}
@@ -30,21 +30,51 @@ const Hero = () => {
 
       {/* Main Content Area */}
       <div className="relative z-20 flex-1 flex items-end mt-24">
-        <div className="pb-8 px-8 lg:pb-12 lg:px-12 w-full">
-          {/* Tagline */}
-          <p className="text-white/60 text-sm font-light tracking-wide mb-6">
-            The heat is nothing compared to what's coming.
-          </p>
+        <div className="pb-8 px-8 lg:pb-12 lg:px-12 w-full flex justify-between items-end">
+          <div className="flex-1">
+            {/* Tagline */}
+            <p className="text-white/60 text-sm font-light tracking-wide mb-6">
+              The heat is nothing compared to what's coming.
+            </p>
 
-          {/* Headline */}
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
-            <div className="text-white">We are an early stage fund backing Poland's boldest tech founders</div>
-            
-          </h1>
+            {/* Headline */}
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
+              <div className="text-white">We are an early stage fund backing Poland's boldest tech founders</div>
+              
+            </h1>
 
-          {/* Paragraph */}
-          <div className="lg:max-w-md">
-            <p className="text-white/70 font-light leading-relaxed text-lg">From groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we backFrom groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we back your unfair advantage. your unfair advantage.</p>
+            {/* Paragraph */}
+            <div className="lg:max-w-md">
+              <p className="text-white/70 font-light leading-relaxed text-lg">From groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we backFrom groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we back your unfair advantage. your unfair advantage.</p>
+            </div>
+          </div>
+
+          {/* Team Section */}
+          <div className="hidden lg:block ml-12">
+            <h2 className="text-white text-lg font-light tracking-wide mb-6">Team</h2>
+            <div className="space-y-4">
+              <div className="flex items-center space-x-3">
+                <Linkedin className="w-4 h-4 text-white/80" />
+                <div>
+                  <p className="text-white font-light">Aleksandra Pedraszewska</p>
+                  <p className="text-white/60 text-sm">PARTNER</p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Linkedin className="w-4 h-4 text-white/80" />
+                <div>
+                  <p className="text-white font-light">Karolina Kukielka</p>
+                  <p className="text-white/60 text-sm">PARTNER</p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Linkedin className="w-4 h-4 text-white/80" />
+                <div>
+                  <p className="text-white font-light">Zuzanna Brzosko, PhD</p>
+                  <p className="text-white/60 text-sm">PARTNER</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
