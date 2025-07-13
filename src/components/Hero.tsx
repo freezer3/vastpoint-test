@@ -39,7 +39,7 @@ const Hero = () => {
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
             <div className="text-white">We are an early stage fund backing Poland's boldest tech founders</div>
-            <div className="text-white/90">Rule the Desert.</div>
+            
           </h1>
 
           {/* Paragraph */}
