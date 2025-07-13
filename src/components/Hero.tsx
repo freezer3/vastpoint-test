@@ -56,23 +56,23 @@ const Hero = () => {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-white font-light">Aleksandra Pedraszewska</p>
-                    <p className="text-white/60 text-sm">PARTNER</p>
+                    <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-5 h-5" />
+                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6" />
                 </div>
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-white font-light">Karolina Kukielka</p>
-                    <p className="text-white/60 text-sm">PARTNER</p>
+                    <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-5 h-5" />
+                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6" />
                 </div>
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-white font-light">Zuzanna Brzosko, PhD</p>
-                    <p className="text-white/60 text-sm">PARTNER</p>
+                    <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-5 h-5" />
+                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6" />
                 </div>
               </div>
             </div>
