@@ -43,14 +43,14 @@ const Hero = () => {
           </h1>
 
           {/* Content Row */}
-          <div className="flex justify-between items-start">
+          <div>
             {/* Paragraph */}
-            <div className="lg:max-w-md">
+            <div className="lg:max-w-md mb-8">
               <p className="text-white/70 font-light leading-relaxed text-lg">From groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we backFrom groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we back your unfair advantage. your unfair advantage.</p>
             </div>
 
             {/* Team Section */}
-            <div className="hidden lg:block ml-12">
+            <div>
               <h2 className="text-white text-lg font-light tracking-wide mb-6">Team</h2>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
