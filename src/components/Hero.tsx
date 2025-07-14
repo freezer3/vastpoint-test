@@ -79,7 +79,7 @@ const Hero = () => {
 
             {/* Duplicate Headline Block */}
             <div>
-              <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
+              <h1 className="text-6xl md:text-7xl leading-none mb-8 lg:text-7xl font-light">
                 <div className="text-white">Turning a world-changing idea into a global company takes more than capital</div>
               </h1>
             </div>
