@@ -46,7 +46,7 @@ const Hero = () => {
           <div>
             {/* Paragraph */}
             <div className="lg:max-w-md mb-8">
-              <p className="text-white/70 font-light leading-relaxed text-lg">From groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we backFrom groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we back your unfair advantage. your unfair advantage.</p>
+              <p className="text-white/70 font-light leading-relaxed text-lg">From groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we back your unfair advantage. your unfair advantage.</p>
             </div>
 
             {/* Team Section */}
