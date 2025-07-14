@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
@@ -85,19 +86,22 @@ const Hero = () => {
               </h1>
             </div>
 
-            {/* Gateway to global network Block */}
-            <div className="mb-12">
-              <h2 className="text-white text-lg font-light tracking-wide mb-6">Gateway to global network</h2>
-              <div className="lg:max-w-md">
-                <p className="text-white/70 font-light leading-relaxed">Our investment unlocks international reach. We connect you to markets, partners, and investors who move the needle - helping you launch, scale and raise worldwide.</p>
+            {/* Two Blocks Side by Side */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-12">
+              {/* Gateway to global network Block */}
+              <div>
+                <h2 className="text-white text-lg font-light tracking-wide mb-6">Gateway to global network</h2>
+                <div>
+                  <p className="text-white/70 font-light leading-relaxed">Our investment unlocks international reach. We connect you to markets, partners, and investors who move the needle - helping you launch, scale and raise worldwide.</p>
+                </div>
               </div>
-            </div>
 
-            {/* Founders for founders Block */}
-            <div className="mb-12">
-              <h2 className="text-white text-lg font-light tracking-wide mb-6">Founders for founders</h2>
-              <div className="lg:max-w-md">
-                <p className="text-white/70 font-light leading-relaxed">We've built and scaled companies ourselves. We know the highs, the chaos, and the grit it really takes. We are not afraid to take risks and stand by you when you need it most.</p>
+              {/* Founders for founders Block */}
+              <div>
+                <h2 className="text-white text-lg font-light tracking-wide mb-6">Founders for founders</h2>
+                <div>
+                  <p className="text-white/70 font-light leading-relaxed">We've built and scaled companies ourselves. We know the highs, the chaos, and the grit it really takes. We are not afraid to take risks and stand by you when you need it most.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -106,3 +110,4 @@ const Hero = () => {
     </div>;
 };
 export default Hero;
+
