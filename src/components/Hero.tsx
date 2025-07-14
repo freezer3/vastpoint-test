@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
@@ -47,32 +48,33 @@ const Hero = () => {
             {/* Paragraph */}
             <div className="lg:max-w-md mb-8">
               <p className="text-white/70 font-light leading-relaxed text-lg">From groundbreaking tech, shaking up stagnant industries, or building an unstoppable team—we back your unfair advantage. your unfair advantage.</p>
+              <p className="lg:max-w-md text-white/70 font-light leading-relaxed mt-4">Turning a world-changing idea into a global company takes more than capital.</p>
             </div>
 
             {/* Team Section */}
             <div>
               <h2 className="text-white text-lg font-light tracking-wide mb-6">Team</h2>
               <div className="space-y-4">
-                <div className="flex items-center">
+                <div className="flex justify-between items-center">
                   <div>
                     <p className="text-white font-light">Aleksandra Pedraszewska</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-5" />
+                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6" />
                 </div>
-                <div className="flex items-center">
+                <div className="flex justify-between items-center">
                   <div>
                     <p className="text-white font-light">Karolina Kukielka</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-5" />
+                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6" />
                 </div>
-                <div className="flex items-center">
+                <div className="flex justify-between items-center">
                   <div>
                     <p className="text-white font-light">Zuzanna Brzosko, PhD</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-5" />
+                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6" />
                 </div>
               </div>
             </div>
