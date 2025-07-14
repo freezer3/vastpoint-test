@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
@@ -78,10 +79,26 @@ const Hero = () => {
             </div>
 
             {/* Duplicate Headline Block */}
-            <div>
+            <div className="mb-12">
               <h1 className="text-6xl md:text-7xl leading-none mb-8 lg:text-7xl font-light">
-                <div className="text-white">Turning a world-changing idea into a global company takes more than capital</div>
+                <div className="text-white">We are an early stage fund backing Poland's boldest tech founders</div>
               </h1>
+            </div>
+
+            {/* Gateway to global network Block */}
+            <div className="mb-12">
+              <h2 className="text-white text-lg font-light tracking-wide mb-6">Gateway to global network</h2>
+              <div className="lg:max-w-md">
+                <p className="text-white/70 font-light leading-relaxed">Our investment unlocks international reach. We connect you to markets, partners, and investors who move the needle - helping you launch, scale and raise worldwide.</p>
+              </div>
+            </div>
+
+            {/* Founders for founders Block */}
+            <div className="mb-12">
+              <h2 className="text-white text-lg font-light tracking-wide mb-6">Founders for founders</h2>
+              <div className="lg:max-w-md">
+                <p className="text-white/70 font-light leading-relaxed">We've built and scaled companies ourselves. We know the highs, the chaos, and the grit it really takes. We are not afraid to take risks and stand by you when you need it most.</p>
+              </div>
             </div>
           </div>
         </div>
