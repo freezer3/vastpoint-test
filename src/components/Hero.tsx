@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
@@ -50,31 +51,38 @@ const Hero = () => {
             </div>
 
             {/* Team Section */}
-            <div>
+            <div className="mb-12">
               <h2 className="text-white text-lg font-light tracking-wide mb-6">Team</h2>
               <div className="space-y-4">
-                <div className="flex items-center">
+                <div className="flex items-center justify-between">
                   <div>
                     <p className="text-white font-light">Aleksandra Pedraszewska</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-5" />
+                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6" />
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-between">
                   <div>
                     <p className="text-white font-light">Karolina Kukielka</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-5" />
+                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6" />
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-between">
                   <div>
                     <p className="text-white font-light">Zuzanna Brzosko, PhD</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-5" />
+                  <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6" />
                 </div>
               </div>
+            </div>
+
+            {/* Duplicate Headline Block */}
+            <div>
+              <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
+                <div className="text-white">We are an early stage fund backing Poland's boldest tech founders</div>
+              </h1>
             </div>
           </div>
         </div>
