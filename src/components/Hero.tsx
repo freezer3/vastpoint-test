@@ -112,7 +112,7 @@ const Hero = () => {
               {/* Location Block */}
               <div>
                 <h2 className="text-white text-lg font-light tracking-wide mb-6">Location</h2>
-                <div className="space-y-4">
+                <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="text-white font-light">Warsaw</p>
@@ -129,7 +129,7 @@ const Hero = () => {
               {/* Contact Block */}
               <div>
                 <h2 className="text-white text-lg font-light tracking-wide mb-6">Contact us</h2>
-                <div className="space-y-4">
+                <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="text-white font-light">hello@vastpoint.vc</p>
