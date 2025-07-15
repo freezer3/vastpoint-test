@@ -1,47 +1,67 @@
 
 import React from 'react';
-import { Separator } from './ui/separator';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white px-8 lg:px-12 py-12">
-      {/* Thin separator line */}
-      <Separator className="bg-white/20 mb-12" />
-      
-      {/* Three blocks side by side */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-        {/* Block 1: Location */}
-        <div>
-          <h3 className="text-white font-light tracking-wide mb-4">Location:</h3>
-          <div className="space-y-2">
-            <p className="text-white/70 font-light">Warsaw</p>
-            <p className="text-white/70 font-light">New York</p>
+    <footer className="bg-gray-50 py-12 px-8 lg:px-12">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+          {/* Locations */}
+          <div>
+            <h3 className="text-gray-600 text-sm font-light tracking-wide mb-4">locations</h3>
+            <div className="space-y-2">
+              <p className="text-gray-900 font-medium">New York, USA</p>
+              <p className="text-gray-900 font-medium">Warsaw, Poland</p>
+            </div>
           </div>
-        </div>
 
-        {/* Block 2: Contact */}
-        <div>
-          <h3 className="text-white font-light tracking-wide mb-4">Contact us</h3>
-          <p className="text-white/70 font-light">hello@vastpoint.vc</p>
-        </div>
+          {/* Contact */}
+          <div>
+            <h3 className="text-gray-600 text-sm font-light tracking-wide mb-4">contact us</h3>
+            <p className="text-gray-900 font-medium">hello@vastpoint.vc</p>
+          </div>
 
-        {/* Block 3: Partner logos */}
-        <div className="space-y-4">
-          <img 
-            src="/lovable-uploads/21635b94-464e-410f-ab50-eb3da765f426.png" 
-            alt="European Funds for Smart Economy" 
-            className="h-12 object-contain"
-          />
-          <img 
-            src="/lovable-uploads/45b5d339-a850-46f1-8c4b-8e64436d2aff.png" 
-            alt="Co-funded by the European Union" 
-            className="h-12 object-contain"
-          />
-          <img 
-            src="/lovable-uploads/12102bc4-447a-49d2-8c1c-7f26d3ef3e70.png" 
-            alt="Republic of Poland" 
-            className="h-12 object-contain"
-          />
+          {/* Empty column for spacing */}
+          <div></div>
+
+          {/* Funding Partners */}
+          <div className="flex flex-col space-y-4">
+            {/* European Funds Logo */}
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
+                <span className="text-white text-xs font-bold">EU</span>
+              </div>
+              <div>
+                <p className="text-xs text-gray-600">European Funds</p>
+                <p className="text-xs text-gray-600">for Smart Economy</p>
+              </div>
+            </div>
+
+            {/* Republic of Poland and EU Logos */}
+            <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-2">
+                <div className="w-6 h-4 bg-red-600"></div>
+                <div>
+                  <p className="text-xs text-gray-600">Republic</p>
+                  <p className="text-xs text-gray-600">of Poland</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center space-x-2">
+                <div className="w-8 h-6 bg-blue-600 flex items-center justify-center">
+                  <div className="grid grid-cols-3 gap-0.5">
+                    {Array.from({length: 12}).map((_, i) => (
+                      <div key={i} className="w-0.5 h-0.5 bg-yellow-400 rounded-full"></div>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs text-gray-600">Co-funded by the</p>
+                  <p className="text-xs text-gray-600">European Union</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
