@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
@@ -104,10 +103,32 @@ const Hero = () => {
                 </div>
               </div>
             </div>
+
+            {/* Thin White Line */}
+            <div className="w-full h-px bg-white/20 mb-12"></div>
+
+            {/* Location and Contact Blocks */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+              {/* Location Block */}
+              <div>
+                <h2 className="text-white text-lg font-light tracking-wide mb-6">Location:</h2>
+                <div className="space-y-2">
+                  <p className="text-white/70 font-light">Warsaw</p>
+                  <p className="text-white/70 font-light">New York</p>
+                </div>
+              </div>
+
+              {/* Contact Block */}
+              <div>
+                <h2 className="text-white text-lg font-light tracking-wide mb-6">Contact us</h2>
+                <div>
+                  <p className="text-white/70 font-light">hello@vastpoint.vc</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>;
 };
 export default Hero;
-
