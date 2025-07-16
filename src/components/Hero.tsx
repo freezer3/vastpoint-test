@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
@@ -19,7 +20,7 @@ const Hero = () => {
 
         {/* Center Navigation Links */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#mission" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
+          <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
           <a href="#chapter" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
         </div>
@@ -48,9 +49,9 @@ const Hero = () => {
             </div>
 
             {/* Team Section */}
-            <div className="mb-12">
+            <div id="team" className="mb-12">
               <h2 className="text-white text-lg font-light tracking-wide mb-6">Team</h2>
-              <div className="space-y-4 px-0">
+              <div className="space-y-2 px-0">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-white font-light">Aleksandra Pedraszewska</p>
@@ -126,7 +127,7 @@ const Hero = () => {
 
               {/* Contact Block */}
               <div>
-                <h2 className="text-white font-light tracking-wide mb-3 text-sm">Contact us</h2>
+                <h2 className="text-white font-light tracking-wide mb-1 text-sm">Contact us</h2>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
