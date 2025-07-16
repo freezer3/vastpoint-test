@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
@@ -108,7 +109,7 @@ const Hero = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
               {/* Location Block */}
               <div className="rounded-none">
-                <h2 className="text-white font-light tracking-wide mb-1 text-sm">Locations</h2>
+                <h2 className="text-white font-light tracking-wide mb-2 text-sm">Locations</h2>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
