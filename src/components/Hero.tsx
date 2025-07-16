@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
@@ -53,7 +52,7 @@ const Hero = () => {
             {/* Team Section */}
             <div className="mb-12">
               <h2 className="text-white text-lg font-light tracking-wide mb-6">Team</h2>
-              <div className="space-y-4">
+              <div className="space-y-4 px-0">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-white font-light">Aleksandra Pedraszewska</p>
@@ -81,7 +80,7 @@ const Hero = () => {
             {/* Duplicate Headline Block */}
             <div className="mb-12">
               <h1 className="text-6xl md:text-7xl leading-none mb-8 lg:text-7xl font-light">
-                <div className="text-white">We are an early stage fund backing Poland's boldest tech founders</div>
+                <div className="text-white">Turning a world-changing idea into a global company takes more than capital</div>
               </h1>
             </div>
 
@@ -111,7 +110,8 @@ const Hero = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
               {/* Location Block */}
               <div>
-                <h2 className="text-white text-lg font-light tracking-wide mb-6">Location</h2>
+                <h2 className="text-white font-light tracking-wide mb-6 text-sm">Location:
+              </h2>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
@@ -128,7 +128,7 @@ const Hero = () => {
 
               {/* Contact Block */}
               <div>
-                <h2 className="text-white text-lg font-light tracking-wide mb-6">Contact us</h2>
+                <h2 className="text-white font-light tracking-wide mb-6 text-sm">Contact us</h2>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
