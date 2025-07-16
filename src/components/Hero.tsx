@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
@@ -21,7 +22,7 @@ const Hero = () => {
         {/* Center Navigation Links */}
         <div className="hidden md:flex items-center space-x-8">
           <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
-          <a href="#chapter" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
+          <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
         </div>
 
@@ -84,7 +85,7 @@ const Hero = () => {
             </div>
 
             {/* Two Blocks Side by Side */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-12">
+            <div id="about" className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-12">
               {/* Gateway to global network Block */}
               <div>
                 <h2 className="text-white text-lg font-light tracking-wide mb-6">Gateway to global network</h2>
@@ -143,3 +144,4 @@ const Hero = () => {
     </div>;
 };
 export default Hero;
+
