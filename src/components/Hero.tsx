@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { Award, Linkedin } from 'lucide-react';
 const Hero = () => {
@@ -111,7 +112,7 @@ const Hero = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
               {/* Location Block */}
               <div>
-                <h2 className="text-white font-light tracking-wide mb-3 text-sm">Location:
+                <h2 className="text-white font-light tracking-wide mb-1 text-sm">Location:
               </h2>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
@@ -145,3 +146,4 @@ const Hero = () => {
     </div>;
 };
 export default Hero;
+
