@@ -127,7 +127,7 @@ const Hero = () => {
 
               {/* Contact Block */}
               <div>
-                <h2 className="text-white font-light tracking-wide mb-1 text-sm">Contact us</h2>
+                <h2 className="text-white font-light tracking-wide mb-2 text-sm">Contact us</h2>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
