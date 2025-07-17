@@ -113,8 +113,8 @@ const Hero = () => {
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-white font-light text-sm">New York, USA
-Warsaw, Poland</p>
+                      <p className="text-white font-light text-sm">New York, USA</p>
+                      <p className="text-white font-light text-sm">Warsaw, Poland</p>
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
