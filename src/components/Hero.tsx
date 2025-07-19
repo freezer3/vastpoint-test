@@ -43,7 +43,7 @@ const Hero = () => {
           {/* Content Row */}
           <div>
             {/* Paragraph */}
-            <div className="lg:max-w-md mb-8">
+            <div className="max-w-[400px] mb-8">
               <p className="text-white/70 font-light leading-relaxed text-lg">From groundbreaking tech, shaking up stagnant industries, or building an unstoppable team - we back your unfair advantage.</p>
             </div>
 
