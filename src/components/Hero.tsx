@@ -108,12 +108,12 @@ const Hero = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
               {/* Location Block */}
               <div className="rounded-none">
-                <h2 className="text-white font-light tracking-wide mb-2 text-sm">Locations</h2>
+                <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Locations</h2>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-white font-light text-sm">New York, USA</p>
-                      <p className="text-white font-light text-sm mt-1">Warsaw, Poland</p>
+                      <p className="text-white text-sm font-extralight">New York, USA</p>
+                      <p className="text-white text-sm mt-1 font-extralight">Warsaw, Poland</p>
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
@@ -126,11 +126,11 @@ const Hero = () => {
 
               {/* Contact Block */}
               <div>
-                <h2 className="text-white font-light tracking-wide mb-2 text-sm">Contact us</h2>
+                <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-white font-light text-sm">hello@vastpoint.vc</p>
+                      <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
                     </div>
                   </div>
                 </div>
