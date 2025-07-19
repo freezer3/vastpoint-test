@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="hidden md:flex items-center space-x-8">
           <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
-          <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
+          <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
         </div>
 
         {/* CTA Button */}
@@ -32,7 +32,7 @@ const Hero = () => {
       <div className="relative z-20 flex-1 flex items-end mt-24">
         <div className="pb-8 px-8 lg:pb-12 lg:px-12 w-full">
           {/* Tagline */}
-          <p className="text-white/60 text-sm font-light tracking-wide mb-6">lorem ipsum</p>
+          <p className="text-white/60 text-sm font-light tracking-wide mb-6">[active & investing]</p>
 
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
