@@ -123,21 +123,9 @@ const Hero = () => {
                       
                       {/* Partner Logos */}
                       <div className="flex items-center justify-start gap-4 mt-[30px]">
-                        <img 
-                          src="/lovable-uploads/6d4172c8-e7e4-4851-9771-82584560f09d.png" 
-                          alt="European Funds for Smart Economy" 
-                          className="h-8 w-auto opacity-80"
-                        />
-                        <img 
-                          src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" 
-                          alt="Republic of Poland" 
-                          className="h-8 w-auto opacity-80"
-                        />
-                        <img 
-                          src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" 
-                          alt="Co-funded by the European Union" 
-                          className="h-8 w-auto opacity-80"
-                        />
+                        <img src="/lovable-uploads/6d4172c8-e7e4-4851-9771-82584560f09d.png" alt="European Funds for Smart Economy" className="h-8 w-auto opacity-80" />
+                        <img src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" alt="Republic of Poland" className="h-8 w-auto opacity-80" />
+                        <img src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" alt="Co-funded by the European Union" className="h-8 w-auto opacity-80" />
                       </div>
                     </div>
                   </div>
@@ -155,7 +143,7 @@ const Hero = () => {
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
+                      <p className="text-white text-sm font-extralight">hello@vastpoint.vc (first conversation? anytime) </p>
                     </div>
                   </div>
                 </div>
