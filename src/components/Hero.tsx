@@ -32,7 +32,7 @@ const Hero = () => {
       <div className="relative z-20 flex-1 flex items-end mt-24">
         <div className="pb-8 px-8 lg:pb-12 lg:px-12 w-full">
           {/* Tagline */}
-          <p className="text-white/60 text-sm font-light tracking-wide mb-6">first-move, transformative ventures</p>
+          <p className="text-white/60 text-sm font-light tracking-wide mb-6">transformative ventures</p>
 
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
