@@ -129,13 +129,13 @@ const Hero = () => {
                           className="h-8 w-auto opacity-80"
                         />
                         <img 
-                          src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" 
-                          alt="Co-funded by the European Union" 
+                          src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" 
+                          alt="Republic of Poland" 
                           className="h-8 w-auto opacity-80"
                         />
                         <img 
-                          src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" 
-                          alt="Republic of Poland" 
+                          src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" 
+                          alt="Co-funded by the European Union" 
                           className="h-8 w-auto opacity-80"
                         />
                       </div>
