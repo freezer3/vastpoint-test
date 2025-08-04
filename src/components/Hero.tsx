@@ -62,7 +62,7 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center">
                   <div className="flex-1">
-                    <p className="text-white font-light">Karolina Kukielka</p>
+                    <p className="text-white font-light">Karolina Kukiełka</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
                   <a href="https://www.linkedin.com/in/kkukielka/" target="_blank" rel="noopener noreferrer">
