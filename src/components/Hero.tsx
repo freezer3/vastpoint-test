@@ -32,7 +32,7 @@ const Hero = () => {
       <div className="relative z-20 flex-1 flex items-end mt-24">
         <div className="pb-8 px-8 lg:pb-12 lg:px-12 w-full">
           {/* Tagline */}
-          <p className="text-white/60 text-sm font-light tracking-wide mb-6">[active & investing]</p>
+          <p className="text-white/60 text-sm font-light tracking-wide mb-6">transformative ventures</p>
 
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
@@ -62,7 +62,7 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center">
                   <div className="flex-1">
-                    <p className="text-white font-light">Karolina Kukielka</p>
+                    <p className="text-white font-light">Karolina Kukiełka</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
                   <a href="https://www.linkedin.com/in/kkukielka/" target="_blank" rel="noopener noreferrer">
@@ -120,6 +120,13 @@ const Hero = () => {
                     <div>
                       <p className="text-white text-sm font-extralight">New York, USA</p>
                       <p className="text-white text-sm mt-1 font-extralight">Warsaw, Poland</p>
+                      
+                      {/* Partner Logos */}
+                      <div className="flex items-center justify-start gap-4 mt-[30px]">
+                        <img src="/lovable-uploads/6d4172c8-e7e4-4851-9771-82584560f09d.png" alt="European Funds for Smart Economy" className="h-8 w-auto opacity-80" />
+                        <img src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" alt="Republic of Poland" className="h-8 w-auto opacity-80" />
+                        <img src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" alt="Co-funded by the European Union" className="h-8 w-auto opacity-80" />
+                      </div>
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
@@ -130,37 +137,25 @@ const Hero = () => {
                 </div>
               </div>
 
-            {/* Contact Block */}
-            <div>
-              <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
-              <div className="space-y-2">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
+              {/* Contact Block */}
+              <div>
+                <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <p className="text-white text-sm font-extralight">hello@vastpoint.vc (first conversation? anytime) </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              
-              {/* Partner Logos - positioned 30px below contact email */}
-              <div className="flex items-center justify-start gap-4 mt-7">
-                <img 
-                  src="/lovable-uploads/6d4172c8-e7e4-4851-9771-82584560f09d.png" 
-                  alt="European Funds for Smart Economy" 
-                  className="h-8 w-auto opacity-70"
-                />
-                <img 
-                  src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" 
-                  alt="Co-funded by the European Union" 
-                  className="h-8 w-auto opacity-70"
-                />
-                <img 
-                  src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" 
-                  alt="Republic of Poland" 
-                  className="h-8 w-auto opacity-70"
-                />
-              </div>
             </div>
-          </div>
+            
+            {/* Partner Logos - Mobile Only (at the bottom) */}
+            <div className="flex items-center justify-start gap-4 mt-8 lg:hidden">
+              <img src="/lovable-uploads/6d4172c8-e7e4-4851-9771-82584560f09d.png" alt="European Funds for Smart Economy" className="h-8 w-auto opacity-80" />
+              <img src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" alt="Republic of Poland" className="h-8 w-auto opacity-80" />
+              <img src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" alt="Co-funded by the European Union" className="h-8 w-auto opacity-80" />
+            </div>
         </div>
       </div>
     </div>
