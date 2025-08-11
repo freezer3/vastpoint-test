@@ -128,25 +128,6 @@ const Hero = () => {
                     </div>
                   </div>
                 </div>
-                
-                {/* Partner Logos - aligned with Warsaw, Poland text */}
-                <div className="flex items-center justify-start gap-8 mt-8">
-                  <img 
-                    src="/lovable-uploads/6d4172c8-e7e4-4851-9771-82584560f09d.png" 
-                    alt="European Funds for Smart Economy" 
-                    className="h-12 w-auto opacity-80"
-                  />
-                  <img 
-                    src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" 
-                    alt="Republic of Poland" 
-                    className="h-12 w-auto opacity-80"
-                  />
-                  <img 
-                    src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" 
-                    alt="Co-funded by the European Union" 
-                    className="h-12 w-auto opacity-80"
-                  />
-                </div>
               </div>
 
             {/* Contact Block */}
@@ -158,6 +139,25 @@ const Hero = () => {
                     <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
                   </div>
                 </div>
+              </div>
+              
+              {/* Partner Logos - below contact email */}
+              <div className="flex items-center justify-start gap-8 mt-8">
+                <img 
+                  src="/lovable-uploads/6d4172c8-e7e4-4851-9771-82584560f09d.png" 
+                  alt="European Funds for Smart Economy" 
+                  className="h-12 w-auto opacity-80"
+                />
+                <img 
+                  src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" 
+                  alt="Republic of Poland" 
+                  className="h-12 w-auto opacity-80"
+                />
+                <img 
+                  src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" 
+                  alt="Co-funded by the European Union" 
+                  className="h-12 w-auto opacity-80"
+                />
               </div>
             </div>
           </div>
