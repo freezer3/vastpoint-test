@@ -32,7 +32,7 @@ const Hero = () => {
       <div className="relative z-20 flex-1 flex items-end mt-24">
         <div className="pb-8 px-8 lg:pb-12 lg:px-12 w-full">
           {/* Tagline */}
-          <p className="text-white/60 text-sm font-light tracking-wide mb-6">[active & investing]</p>
+          <p className="text-white/60 text-sm font-light tracking-wide mb-6">transformative ventures</p>
 
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
@@ -146,21 +146,9 @@ const Hero = () => {
           {/* Partner Logos Section */}
           <div className="mt-16">
             <div className="flex items-center justify-start gap-8">
-              <img 
-                src="/lovable-uploads/6d4172c8-e7e4-4851-9771-82584560f09d.png" 
-                alt="European Funds for Smart Economy" 
-                className="h-12 w-auto opacity-80"
-              />
-              <img 
-                src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" 
-                alt="Republic of Poland" 
-                className="h-12 w-auto opacity-80"
-              />
-              <img 
-                src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" 
-                alt="Co-funded by the European Union" 
-                className="h-12 w-auto opacity-80"
-              />
+              <img src="/lovable-uploads/6d4172c8-e7e4-4851-9771-82584560f09d.png" alt="European Funds for Smart Economy" className="h-12 w-auto opacity-80" />
+              <img src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" alt="Republic of Poland" className="h-12 w-auto opacity-80" />
+              <img src="/lovable-uploads/83de6ac1-d94c-40cb-9394-c6d23c1897d9.png" alt="Co-funded by the European Union" className="h-12 w-auto opacity-80" />
             </div>
           </div>
         </div>
