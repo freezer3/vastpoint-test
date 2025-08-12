@@ -143,8 +143,8 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Partner Logos Section */}
-          <div className="mt-16">
+            {/* Partner Logos Section */}
+            <div className="mt-8">
             <div className="flex items-center justify-start gap-8">
               <img src="/lovable-uploads/6d4172c8-e7e4-4851-9771-82584560f09d.png" alt="European Funds for Smart Economy" className="h-12 w-auto opacity-80" />
               <img src="/lovable-uploads/ea0f5861-1ecd-4d63-a2d0-242e2477b7cb.png" alt="Republic of Poland" className="h-12 w-auto opacity-80" />
