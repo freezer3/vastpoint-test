@@ -15,7 +15,7 @@ const Hero = () => {
       {/* Navigation Bar */}
       <nav className="relative z-30 flex items-center justify-between p-8 lg:p-12">
         {/* Logo */}
-        <img src="/lovable-uploads/dafb4d3f-0152-4842-a914-877032678787.png" alt="Vastpoint Logo" className="h-8 w-auto" />
+        <img src="/lovable-uploads/3f117950-b7a9-4b60-9fd4-e948f4af5166.png" alt="vastpoint" className="h-8 w-auto" />
 
         {/* Center Navigation Links */}
         <div className="hidden md:flex items-center space-x-8">
