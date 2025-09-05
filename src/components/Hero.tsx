@@ -110,8 +110,8 @@ const Hero = () => {
             {/* Thin White Line */}
             <div className="w-full h-px bg-white/20 mb-12"></div>
 
-            {/* Location and Contact Blocks */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+            {/* Location, Contact, and Partner Logos Blocks */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
               {/* Location Block */}
               <div className="rounded-none">
                 <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Locations</h2>
@@ -131,17 +131,27 @@ const Hero = () => {
               </div>
 
               {/* Contact Block */}
-            <div>
-              <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
-              <div className="space-y-2">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
+              <div>
+                <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
+                    </div>
                   </div>
                 </div>
               </div>
+
+              {/* Partner Logos Block */}
+              <div>
+                <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Supported by</h2>
+                <div className="space-y-3">
+                  <img src="/lovable-uploads/0fedce53-9aad-4fce-a8f9-6152fb68bea5.png" alt="European Funds for Smart Economy" className="h-8 object-contain" />
+                  <img src="/lovable-uploads/12d37cef-94b8-4f01-852e-4c05216ea433.png" alt="Co-funded by the European Union" className="h-6 object-contain" />
+                  <img src="/lovable-uploads/19f5fa2f-2cfb-4416-9f3c-667c0d994776.png" alt="Republic of Poland" className="h-8 object-contain" />
+                </div>
+              </div>
             </div>
-          </div>
 
             {/* Partner Logos Section */}
             <div className="mt-8">
