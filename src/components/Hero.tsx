@@ -144,8 +144,7 @@ const Hero = () => {
 
               {/* Partner Logos Block */}
               <div>
-                <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Supported by</h2>
-                <div className="space-y-3">
+                <div className="flex items-center gap-4 flex-wrap">
                   <img src="/lovable-uploads/0fedce53-9aad-4fce-a8f9-6152fb68bea5.png" alt="European Funds for Smart Economy" className="h-8 object-contain" />
                   <img src="/lovable-uploads/12d37cef-94b8-4f01-852e-4c05216ea433.png" alt="Co-funded by the European Union" className="h-6 object-contain" />
                   <img src="/lovable-uploads/19f5fa2f-2cfb-4416-9f3c-667c0d994776.png" alt="Republic of Poland" className="h-8 object-contain" />
