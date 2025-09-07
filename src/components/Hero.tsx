@@ -14,13 +14,6 @@ const Hero = () => {
   }, []);
 
   return <div className="relative min-h-screen flex flex-col overflow-hidden">
-      {/* Video Background */}
-      <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover z-0">
-        <source src="https://cdn.midjourney.com/video/cb84f296-92a0-4a37-a0e3-1c9c95299488/0.mp4" type="video/mp4" />
-        {/* Fallback for browsers that don't support video */}
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-black"></div>
-      </video>
-
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
@@ -119,9 +112,9 @@ const Hero = () => {
             <div className="w-full h-px bg-white/20 mb-12"></div>
 
             {/* Three Column Footer */}
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-4">
+            <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center w-full gap-8 lg:gap-12">
               {/* Location Block */}
-              <div className="md:col-span-2">
+              <div className="flex-none">
                 <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Locations</h2>
                 <div className="space-y-2">
                   <p className="text-white text-sm font-extralight">New York, USA</p>
@@ -130,14 +123,14 @@ const Hero = () => {
               </div>
 
               {/* Contact Block */}
-              <div className="md:col-span-3">
+              <div className="flex-none lg:flex-1 lg:text-center">
                 <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
                 <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
               </div>
 
-              {/* Partner Logos Block - Optimized width */}
-              <div className="md:col-span-7">
-                <div className="flex items-center gap-4 flex-nowrap justify-start">
+              {/* Partner Logos Block */}
+              <div className="flex-none lg:ml-auto">
+                <div className="flex items-center gap-4 flex-nowrap justify-start lg:justify-end">
                   <img src="/lovable-uploads/0fedce53-9aad-4fce-a8f9-6152fb68bea5.png" alt="European Funds for Smart Economy" className="h-8 object-contain flex-shrink-0" />
                   <img src="/lovable-uploads/19f5fa2f-2cfb-4416-9f3c-667c0d994776.png" alt="Republic of Poland" className="h-8 object-contain flex-shrink-0" />
                   <img src="/lovable-uploads/12d37cef-94b8-4f01-852e-4c05216ea433.png" alt="Co-funded by the European Union" className="h-6 object-contain flex-shrink-0" />
