@@ -25,16 +25,19 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       {/* Navigation Bar */}
-      <nav className="relative z-30 flex items-center justify-center p-8 lg:p-12">
-        {/* Logo and Navigation Links on same line */}
-        <div className="flex items-center space-x-8">
-          <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
-            <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
-            <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
-          </div>
+      <nav className="relative z-30 flex items-center justify-between p-8 lg:p-12">
+        {/* Logo */}
+        <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
+
+        {/* Center Navigation Links */}
+        <div className="hidden md:flex items-center space-x-8">
+          <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
+          <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
+          <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
         </div>
+
+        {/* CTA Button placeholder */}
+        
       </nav>
 
       {/* Main Content Area */}
@@ -89,7 +92,7 @@ const Hero = () => {
             {/* Duplicate Headline Block */}
             <div className="mb-12">
               <h1 className="text-6xl md:text-7xl leading-none mb-8 lg:text-7xl font-light">
-                <div className="text-white">Turning a world-changing idea into a global company takes more than capital.</div>
+                <div className="text-white">Turning a world-changing idea into a global company takes more than capital</div>
               </h1>
             </div>
 
@@ -116,9 +119,9 @@ const Hero = () => {
             <div className="w-full h-px bg-white/20 mb-12"></div>
 
             {/* Three Column Footer */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-4">
               {/* Location Block */}
-              <div className="lg:col-span-3">
+              <div className="md:col-span-2">
                 <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Locations</h2>
                 <div className="space-y-2">
                   <p className="text-white text-sm font-extralight">New York, USA</p>
@@ -127,14 +130,14 @@ const Hero = () => {
               </div>
 
               {/* Contact Block */}
-              <div className="lg:col-span-3">
+              <div className="md:col-span-3">
                 <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
                 <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
               </div>
 
-              {/* Partner Logos Block - Wider column to keep logos in one line */}
-              <div className="lg:col-span-6">
-                <div className="flex items-center gap-4 flex-nowrap">
+              {/* Partner Logos Block - Optimized width */}
+              <div className="md:col-span-7">
+                <div className="flex items-center gap-4 flex-nowrap justify-start">
                   <img src="/lovable-uploads/0fedce53-9aad-4fce-a8f9-6152fb68bea5.png" alt="European Funds for Smart Economy" className="h-8 object-contain flex-shrink-0" />
                   <img src="/lovable-uploads/19f5fa2f-2cfb-4416-9f3c-667c0d994776.png" alt="Republic of Poland" className="h-8 object-contain flex-shrink-0" />
                   <img src="/lovable-uploads/12d37cef-94b8-4f01-852e-4c05216ea433.png" alt="Co-funded by the European Union" className="h-6 object-contain flex-shrink-0" />
