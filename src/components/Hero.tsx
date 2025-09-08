@@ -49,8 +49,8 @@ const Hero = () => {
             </div>
 
             {/* Team Section */}
-            <div id="team" className="mb-12 px-8 py-8">
-              <h2 className="text-white text-6xl md:text-7xl font-light tracking-wide mb-8">Team</h2>
+            <div id="team" className="mb-12">
+              <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-light tracking-wide mb-8">Team</h2>
               <div className="space-y-2 px-0 w-[320px]">
                 <div className="flex items-center">
                   <div className="flex-1">
@@ -84,7 +84,7 @@ const Hero = () => {
 
             {/* Duplicate Headline Block */}
             <div className="mb-12">
-              <h1 className="text-6xl md:text-7xl leading-none mb-8 lg:text-7xl font-light">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-none mb-8">
                 <div className="text-white">Turning a world-changing idea into a global company takes more than capital</div>
               </h1>
             </div>
@@ -112,9 +112,9 @@ const Hero = () => {
             <div className="w-full h-px bg-white/20 mb-12"></div>
 
             {/* Three Column Footer */}
-            <div className="flex flex-wrap lg:flex-nowrap justify-between items-start w-full gap-6 lg:gap-12">
+            <div className="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12 w-full">
               {/* Location Block */}
-              <div className="flex-none min-w-0">
+              <div className="col-span-1">
                 <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Locations</h2>
                 <div className="space-y-2">
                   <p className="text-white text-sm font-extralight">New York, USA</p>
@@ -123,14 +123,14 @@ const Hero = () => {
               </div>
 
               {/* Contact Block */}
-              <div className="flex-none min-w-0 lg:flex-1 lg:px-8">
-                <h2 className="text-white tracking-wide mb-2 text-sm font-medium text-left">Contact us</h2>
-                <p className="text-white text-sm font-extralight text-left">hello@vastpoint.vc</p>
+              <div className="col-span-1">
+                <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
+                <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
               </div>
 
-              {/* Partner Logos Block */}
-              <div className="flex-none min-w-0 w-full lg:w-auto lg:ml-auto">
-                <div className="flex items-center gap-4 flex-nowrap justify-start lg:justify-end">
+              {/* Partner Logos Block - moves to second row on smaller screens */}
+              <div className="col-span-1 md:col-span-3 lg:col-span-1">
+                <div className="flex items-center gap-4 flex-wrap justify-start lg:justify-end">
                   <img src="/lovable-uploads/0fedce53-9aad-4fce-a8f9-6152fb68bea5.png" alt="European Funds for Smart Economy" className="h-8 object-contain flex-shrink-0" />
                   <img src="/lovable-uploads/19f5fa2f-2cfb-4416-9f3c-667c0d994776.png" alt="Republic of Poland" className="h-8 object-contain flex-shrink-0" />
                   <img src="/lovable-uploads/12d37cef-94b8-4f01-852e-4c05216ea433.png" alt="Co-funded by the European Union" className="h-6 object-contain flex-shrink-0" />
