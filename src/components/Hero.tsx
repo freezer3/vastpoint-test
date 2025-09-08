@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="hidden md:flex items-center space-x-8">
           <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
-          <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
+          <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -42,8 +42,8 @@ const Hero = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="absolute top-full left-0 right-0 bg-black/90 backdrop-blur-sm md:hidden">
-            <div className="flex flex-col space-y-4 p-8">
+          <div className="absolute top-full right-0 bg-black/70 backdrop-blur-sm md:hidden rounded-bl-lg">
+            <div className="flex flex-col space-y-4 p-6 text-right min-w-[200px]">
               <a 
                 href="#team" 
                 className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
@@ -59,7 +59,9 @@ const Hero = () => {
                 About
               </a>
               <a 
-                href="#about" 
+                href="https://vastpoint.substack.com/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -120,14 +122,14 @@ const Hero = () => {
             </div>
 
             {/* Duplicate Headline Block */}
-            <div className="mb-12">
+            <div id="about" className="mb-12">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-none mb-8">
                 <div className="text-white">Turning a world-changing idea into a global company takes more than capital</div>
               </h1>
             </div>
 
             {/* Two Blocks Side by Side */}
-            <div id="about" className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-12">
               {/* Gateway to global network Block */}
               <div>
                 <h2 className="text-white text-lg font-light tracking-wide mb-6">Gateway to global network</h2>
