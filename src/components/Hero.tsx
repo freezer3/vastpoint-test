@@ -112,9 +112,9 @@ const Hero = () => {
             <div className="w-full h-px bg-white/20 mb-12"></div>
 
             {/* Three Column Footer */}
-            <div className="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12 w-full">
+            <div className="flex flex-wrap justify-between items-start w-full gap-6 lg:gap-12">
               {/* Location Block */}
-              <div className="col-span-1">
+              <div className="flex-shrink-0 min-w-0">
                 <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Locations</h2>
                 <div className="space-y-2">
                   <p className="text-white text-sm font-extralight">New York, USA</p>
@@ -123,14 +123,14 @@ const Hero = () => {
               </div>
 
               {/* Contact Block */}
-              <div className="col-span-1">
+              <div className="flex-shrink-0 min-w-0 sm:order-1">
                 <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
                 <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
               </div>
 
-              {/* Partner Logos Block - moves to second row on smaller screens */}
-              <div className="col-span-1 md:col-span-3 lg:col-span-1">
-                <div className="flex items-center gap-4 flex-wrap justify-start lg:justify-end">
+              {/* Partner Logos Block - wraps last on small screens */}
+              <div className="flex-shrink-0 min-w-0 sm:order-2 w-full sm:w-auto">
+                <div className="flex items-center gap-4 flex-nowrap justify-start sm:justify-end">
                   <img src="/lovable-uploads/0fedce53-9aad-4fce-a8f9-6152fb68bea5.png" alt="European Funds for Smart Economy" className="h-8 object-contain flex-shrink-0" />
                   <img src="/lovable-uploads/19f5fa2f-2cfb-4416-9f3c-667c0d994776.png" alt="Republic of Poland" className="h-8 object-contain flex-shrink-0" />
                   <img src="/lovable-uploads/12d37cef-94b8-4f01-852e-4c05216ea433.png" alt="Co-funded by the European Union" className="h-6 object-contain flex-shrink-0" />
