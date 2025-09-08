@@ -42,7 +42,7 @@ const Hero = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="absolute top-full right-0 bg-black/70 backdrop-blur-sm md:hidden rounded-bl-lg">
+          <div className="absolute top-full right-0 bg-black/40 backdrop-blur-md md:hidden rounded-lg shadow-xl border border-white/10">
             <div className="flex flex-col space-y-4 p-6 text-right min-w-[200px]">
               <a 
                 href="#team" 
@@ -73,7 +73,7 @@ const Hero = () => {
       </nav>
 
       {/* Main Content Area */}
-      <div className="relative z-20 flex-1 flex items-end mt-24">
+      <div className="relative z-20 flex-1 flex items-end mt-32">
         <div className="pb-8 px-8 lg:pb-12 lg:px-12 w-full">
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
