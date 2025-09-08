@@ -1,6 +1,8 @@
-import React, { useEffect } from 'react';
-import { Award, Linkedin } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { Award, Linkedin, Menu, X } from 'lucide-react';
 const Hero = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
       const x = e.clientX - window.innerWidth / 2;
@@ -22,15 +24,50 @@ const Hero = () => {
         {/* Logo */}
         <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
 
-        {/* Center Navigation Links */}
+        {/* Center Navigation Links - Desktop */}
         <div className="hidden md:flex items-center space-x-8">
           <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
         </div>
 
-        {/* CTA Button placeholder */}
-        
+        {/* Mobile Menu Button */}
+        <button 
+          className="md:hidden text-white p-2"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Toggle menu"
+        >
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+
+        {/* Mobile Menu */}
+        {isMenuOpen && (
+          <div className="absolute top-full left-0 right-0 bg-black/90 backdrop-blur-sm md:hidden">
+            <div className="flex flex-col space-y-4 p-8">
+              <a 
+                href="#team" 
+                className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Team
+              </a>
+              <a 
+                href="#about" 
+                className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About
+              </a>
+              <a 
+                href="#about" 
+                className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Insights
+              </a>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Main Content Area */}
@@ -49,7 +86,7 @@ const Hero = () => {
             </div>
 
             {/* Team Section */}
-            <div id="team" className="mb-12">
+            <div id="team" className="mb-12 py-12">
               <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-light tracking-wide mb-8">Team</h2>
               <div className="space-y-2 px-0 w-[320px]">
                 <div className="flex items-center">
@@ -57,8 +94,8 @@ const Hero = () => {
                     <p className="text-white font-light">Aleksandra Pedraszewska</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <a href="https://www.linkedin.com/in/apedraszewska/" target="_blank" rel="noopener noreferrer">
-                    <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4" />
+                  <a href="https://www.linkedin.com/in/apedraszewska/" target="_blank" rel="noopener noreferrer" className="group">
+                    <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -66,8 +103,8 @@ const Hero = () => {
                     <p className="text-white font-light">Karolina Kukielka</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <a href="https://www.linkedin.com/in/kkukielka/" target="_blank" rel="noopener noreferrer">
-                    <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4" />
+                  <a href="https://www.linkedin.com/in/kkukielka/" target="_blank" rel="noopener noreferrer" className="group">
+                    <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -75,8 +112,8 @@ const Hero = () => {
                     <p className="text-white font-light">Zuzanna Brzosko, PhD</p>
                     <p className="text-white/60 text-sm">Partner</p>
                   </div>
-                  <a href="https://www.linkedin.com/in/zuzannabrzosko/" target="_blank" rel="noopener noreferrer">
-                    <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4" />
+                  <a href="https://www.linkedin.com/in/zuzannabrzosko/" target="_blank" rel="noopener noreferrer" className="group">
+                    <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
                   </a>
                 </div>
               </div>
@@ -108,8 +145,8 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Thin White Line */}
-            <div className="w-full h-px bg-white/20 mb-12"></div>
+            {/* Animated Line */}
+            <div className="w-full h-px bg-gradient-to-r from-white/10 via-white/40 to-white/10 mb-12 animated-line"></div>
 
             {/* Three Column Footer */}
             <div className="flex flex-wrap justify-between items-start w-full gap-6 lg:gap-12">
