@@ -74,7 +74,7 @@ const Hero = () => {
 
       {/* Main Content Area */}
       <div className="relative z-20 flex-1 flex items-end mt-32">
-        <div className="pb-8 px-8 lg:pb-12 lg:px-12 w-full">
+        <div className="pb-8 pl-24 pr-8 lg:pb-12 lg:pl-36 lg:pr-12 w-full">
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8 max-w-5xl">
             <div className="text-white">We are an early-stage fund backing Poland's boldest tech founders</div>
