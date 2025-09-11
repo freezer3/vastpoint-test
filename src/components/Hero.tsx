@@ -27,7 +27,7 @@ const Hero = () => {
         </a>
 
         {/* Center Navigation Links - Desktop */}
-        <div className="hidden md:flex items-center space-x-8 max-w-5xl ml-auto mr-0">
+        <div className="hidden md:flex items-center space-x-8 ml-auto">
           <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
           <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
@@ -85,7 +85,7 @@ const Hero = () => {
           {/* Content Row */}
           <div className="max-w-5xl">
             {/* Paragraph */}
-            <div className="max-w-[480px] mb-8">
+            <div className="max-w-[490px] mb-8">
               <p className="text-white/70 font-light leading-relaxed text-lg">Groundbreaking tech. Unstoppable teams. Shaking up stagnant industries. At vastpoint, we look for your unfair advantage. We are sector agnostic with sharp focus on B2B software, AI, and techbio.</p>
             </div>
 
