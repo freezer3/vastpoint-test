@@ -76,14 +76,14 @@ const Hero = () => {
       <div className="relative z-20 flex-1 flex items-end mt-32">
         <div className="pb-8 px-8 lg:pb-12 lg:px-12 w-full">
           {/* Headline */}
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8 max-w-5xl">
             <div className="text-white">We are an early-stage fund backing Poland's boldest tech founders</div>
           </h1>
 
           {/* Content Row */}
-          <div>
+          <div className="max-w-5xl">
             {/* Paragraph */}
-            <div className="max-w-[600px] mb-8">
+            <div className="max-w-[480px] mb-8">
               <p className="text-white/70 font-light leading-relaxed text-lg">Groundbreaking tech. Unstoppable teams. Shaking up stagnant industries. At vastpoint, we look for your unfair advantage. We are sector agnostic with sharp focus on B2B software, AI, and techbio.</p>
             </div>
 
@@ -123,13 +123,13 @@ const Hero = () => {
 
             {/* Duplicate Headline Block */}
             <div id="about" className="mb-12">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-none mb-8">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-none mb-8 max-w-5xl">
                 <div className="text-white">Turning a world-changing idea into a global company takes more than capital</div>
               </h1>
             </div>
 
             {/* Two Blocks Side by Side */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-12 max-w-5xl">
               {/* Gateway to global network Block */}
               <div>
                 <h2 className="text-white text-lg font-light tracking-wide mb-6">Gateway to global network</h2>
