@@ -22,10 +22,12 @@ const Hero = () => {
       {/* Navigation Bar */}
       <nav className="relative z-30 flex items-center justify-between pl-24 pr-8 py-8 lg:pl-36 lg:pr-12 lg:py-12">
         {/* Logo */}
-        <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
+        <a href="/" className="cursor-pointer">
+          <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
+        </a>
 
         {/* Center Navigation Links - Desktop */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center space-x-8 max-w-5xl ml-auto mr-0">
           <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
           <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
