@@ -174,9 +174,9 @@ const Hero = () => {
               {/* Partner Logos Block - wraps last on small screens */}
               <div className="flex-shrink-0 min-w-0 sm:order-2 w-full sm:w-auto">
                 <div className="flex items-center gap-4 flex-nowrap justify-start sm:justify-end">
-                  <img src="/lovable-uploads/0fedce53-9aad-4fce-a8f9-6152fb68bea5.png" alt="European Funds for Smart Economy" className="h-8 object-contain flex-shrink-0" />
-                  <img src="/lovable-uploads/19f5fa2f-2cfb-4416-9f3c-667c0d994776.png" alt="Republic of Poland" className="h-8 object-contain flex-shrink-0" />
-                  <img src="/lovable-uploads/12d37cef-94b8-4f01-852e-4c05216ea433.png" alt="Co-funded by the European Union" className="h-6 object-contain flex-shrink-0" />
+                  <img src="/lovable-uploads/d2915672-46ef-438d-80a0-1f9cbbc9b101.png" alt="European Union" className="h-8 object-contain flex-shrink-0" />
+                  <img src="/lovable-uploads/7fadd43e-f3ec-43e2-84e8-4c80075ca338.png" alt="Republic of Poland" className="h-8 object-contain flex-shrink-0" />
+                  <img src="/lovable-uploads/055b116b-4dc4-45c5-a099-00c806c43b49.png" alt="Partnership Logo" className="h-6 object-contain flex-shrink-0" />
                 </div>
               </div>
             </div>
