@@ -20,14 +20,14 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       {/* Navigation Bar */}
-      <nav className="relative z-30 flex items-center justify-between md:justify-start pl-24 pr-8 py-8 lg:pl-36 lg:pr-12 lg:py-12">
+      <nav className="relative z-30 flex items-center justify-between pl-24 pr-8 py-8 lg:pl-36 lg:pr-12 lg:py-12">
         {/* Logo */}
         <a href="/" className="cursor-pointer">
           <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
         </a>
 
-        {/* Center Navigation Links - Desktop */}
-        <div className="hidden md:flex items-center space-x-8 md:ml-12">
+        {/* Right Navigation Links - Desktop */}
+        <div className="hidden md:flex items-center space-x-8 ml-auto">
           <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
           <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
