@@ -20,14 +20,14 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       {/* Navigation Bar */}
-      <nav className="relative z-30 flex items-center justify-between pl-24 pr-8 py-8 lg:pl-36 lg:pr-12 lg:py-12">
+      <nav className="relative z-30 flex items-center justify-between pl-[89px] pr-8 py-8 lg:pl-[137px] lg:pr-12 lg:py-12">
         {/* Logo */}
         <a href="/" className="cursor-pointer">
           <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
         </a>
 
         {/* Right Navigation Links - Desktop */}
-        <div className="hidden md:flex items-center space-x-8 ml-auto">
+        <div className="hidden md:flex items-center space-x-8 ml-auto -mr-[30px]">
           <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
           <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
@@ -76,7 +76,7 @@ const Hero = () => {
 
       {/* Main Content Area */}
       <div className="relative z-20 flex-1 flex items-end mt-32">
-        <div className="pb-8 pl-24 pr-8 lg:pb-12 lg:pl-36 lg:pr-12 w-full">
+        <div className="pb-8 pl-[89px] pr-8 lg:pb-12 lg:pl-[137px] lg:pr-12 w-full">
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8 max-w-5xl">
             <div className="text-white">We are an early-stage fund backing Poland's boldest tech founders</div>
