@@ -81,7 +81,11 @@ const Hero = () => {
         <div className="pb-8 pl-[82px] pr-8 lg:pb-12 lg:pl-[130px] lg:pr-12 w-full">
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8 max-w-5xl">
-            <div className="text-white">We are an early-stage fund backing Poland's boldest tech founders</div>
+            <div className="text-white">
+              We are an early-stage fund<br />
+              backing Poland's boldest<br />
+              tech founders
+            </div>
           </h1>
 
           {/* Content Row */}
