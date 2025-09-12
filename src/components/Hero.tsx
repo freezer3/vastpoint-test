@@ -78,7 +78,7 @@ const Hero = () => {
 
       {/* Main Content Area */}
       <div className="relative z-20 flex-1 flex items-end mt-32">
-        <div className="pb-8 pl-[82px] pr-8 lg:pb-12 lg:pl-[130px] lg:pr-12 w-full">
+        <div className="pb-8 pl-[82px] pr-8 lg:pb-12 lg:pl-[130px] lg:pr-12 w-full" style={{ paddingBottom: 'calc(2rem + 15px)' }}>
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8 max-w-5xl">
             <div className="text-white">We are an early-stage fund backing Poland's boldest tech founders</div>
@@ -174,9 +174,9 @@ const Hero = () => {
               {/* Partner Logos Block - wraps last on small screens */}
               <div className="flex-shrink-0 min-w-0 sm:order-2 w-full sm:w-auto">
                 <div className="flex items-center gap-4 flex-nowrap justify-start sm:justify-end">
-                  <img src="/lovable-uploads/d2915672-46ef-438d-80a0-1f9cbbc9b101.png" alt="European Union" className="h-8 object-contain flex-shrink-0" />
-                  <img src="/lovable-uploads/7fadd43e-f3ec-43e2-84e8-4c80075ca338.png" alt="Republic of Poland" className="h-8 object-contain flex-shrink-0" />
-                  <img src="/lovable-uploads/055b116b-4dc4-45c5-a099-00c806c43b49.png" alt="Partnership Logo" className="h-6 object-contain flex-shrink-0" />
+                  <img src="/lovable-uploads/d2915672-46ef-438d-80a0-1f9cbbc9b101.png" alt="European Union" className="h-10 object-contain flex-shrink-0" />
+                  <img src="/lovable-uploads/7fadd43e-f3ec-43e2-84e8-4c80075ca338.png" alt="Republic of Poland" className="h-10 object-contain flex-shrink-0" />
+                  <img src="/lovable-uploads/055b116b-4dc4-45c5-a099-00c806c43b49.png" alt="Partnership Logo" className="h-8 object-contain flex-shrink-0" />
                 </div>
               </div>
             </div>
