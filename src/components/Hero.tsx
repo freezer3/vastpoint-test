@@ -86,9 +86,9 @@ const Hero = () => {
 
           {/* Content Row */}
           <div className="max-w-5xl">
-            {/* Subheader */}
+            {/* Paragraph */}
             <div className="max-w-[560px] mb-8">
-              <h2 className="text-white/90 font-light text-2xl md:text-3xl leading-relaxed">We have a sharp focus on B2B software, AI, and techbio</h2>
+              <p className="text-white/70 font-light leading-relaxed text-lg">Groundbreaking tech. Unstoppable teams. Shaking up stagnant industries. At vastpoint, we look for your unfair advantage. We are sector agnostic with sharp focus on B2B software, AI, and techbio.</p>
             </div>
 
             {/* Team Section */}
