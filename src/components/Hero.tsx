@@ -173,7 +173,7 @@ const Hero = () => {
 
               {/* Partner Logos Block - wraps last on small screens */}
               <div className="flex-shrink-0 min-w-0 sm:order-2 w-full sm:w-auto">
-                <div className="flex items-center gap-4 flex-nowrap justify-start sm:justify-end">
+                <div className="flex items-center gap-4 flex-nowrap justify-center sm:justify-end">
                   <img src="/lovable-uploads/d2915672-46ef-438d-80a0-1f9cbbc9b101.png" alt="European Union" className="h-10 object-contain flex-shrink-0" />
                   <img src="/lovable-uploads/7fadd43e-f3ec-43e2-84e8-4c80075ca338.png" alt="Republic of Poland" className="h-10 object-contain flex-shrink-0" />
                   <img src="/lovable-uploads/055b116b-4dc4-45c5-a099-00c806c43b49.png" alt="Partnership Logo" className="h-8 object-contain flex-shrink-0" />
