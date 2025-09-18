@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       {/* Navigation Bar */}
-      <nav className="relative z-30 pl-[77px] pr-8 py-8 lg:pl-[125px] lg:pr-12 lg:py-12">
+      <nav className="relative z-30 px-6 py-8 md:px-8 lg:pl-[125px] lg:pr-12 lg:py-12">
         <div className="flex items-center justify-between max-w-5xl">
           {/* Logo */}
           <a href="/" className="cursor-pointer">
@@ -33,16 +33,16 @@ const Hero = () => {
             <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
             <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
           </div>
-        </div>
 
-        {/* Mobile Menu Button */}
-        <button 
-          className="md:hidden text-white p-2"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label="Toggle menu"
-        >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+          {/* Mobile Menu Button */}
+          <button 
+            className="md:hidden text-white p-2"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && (
@@ -78,7 +78,7 @@ const Hero = () => {
 
       {/* Main Content Area */}
       <div className="relative z-20 flex-1 flex items-end mt-32">
-        <div className="pb-8 pl-[77px] pr-8 lg:pb-12 lg:pl-[125px] lg:pr-12 w-full" style={{ paddingBottom: 'calc(2rem + 30px)' }}>
+        <div className="px-6 pb-8 md:px-8 lg:pb-12 lg:pl-[125px] lg:pr-12 w-full" style={{ paddingBottom: 'calc(2rem + 30px)' }}>
           {/* Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8 max-w-5xl">
             <div className="text-white">We are an early-stage fund backing Poland's boldest tech founders</div>
