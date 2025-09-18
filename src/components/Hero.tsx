@@ -168,7 +168,7 @@ const Hero = () => {
               {/* Contact Block */}
               <div className="flex-shrink-0 min-w-0 sm:order-1">
                 <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
-                <p className="text-white text-sm font-extralight">hello@vastpoint.vc</p>
+                <a href="mailto:hello@vastpoint.vc" className="text-white text-sm font-extralight hover:text-white/80 transition-colors duration-300">hello@vastpoint.vc</a>
               </div>
 
               {/* Partner Logos Block - wraps last on small screens */}
