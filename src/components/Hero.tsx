@@ -97,8 +97,8 @@ const Hero = () => {
               <div className="space-y-2 px-0 w-[320px]">
                 <div className="flex items-center">
                   <div className="flex-1">
-                    <p className="text-white font-light">Aleksandra Pedraszewska</p>
-                    <p className="text-white/60 text-sm">Partner</p>
+                    <p className="text-white text-lg font-light tracking-wide">Aleksandra Pedraszewska</p>
+                    <p className="text-white/70 font-light leading-relaxed text-sm">Partner</p>
                   </div>
                   <a href="https://www.linkedin.com/in/apedraszewska/" target="_blank" rel="noopener noreferrer" className="group">
                     <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
@@ -106,8 +106,8 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center">
                   <div className="flex-1">
-                    <p className="text-white font-light">Karolina Kukielka</p>
-                    <p className="text-white/60 text-sm">Partner</p>
+                    <p className="text-white text-lg font-light tracking-wide">Karolina Kukielka</p>
+                    <p className="text-white/70 font-light leading-relaxed text-sm">Partner</p>
                   </div>
                   <a href="https://www.linkedin.com/in/kkukielka/" target="_blank" rel="noopener noreferrer" className="group">
                     <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
@@ -115,8 +115,8 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center">
                   <div className="flex-1">
-                    <p className="text-white font-light">Zuzanna Brzosko, PhD</p>
-                    <p className="text-white/60 text-sm">Partner</p>
+                    <p className="text-white text-lg font-light tracking-wide">Zuzanna Brzosko, PhD</p>
+                    <p className="text-white/70 font-light leading-relaxed text-sm">Partner</p>
                   </div>
                   <a href="https://www.linkedin.com/in/zuzannabrzosko/" target="_blank" rel="noopener noreferrer" className="group">
                     <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
