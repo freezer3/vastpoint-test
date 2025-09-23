@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
 
         {/* News Ticker - positioned right below logo and menu */}
-        <div className="flex justify-center mt-6">
+        <div className="flex justify-start mt-6">
           <div className="ticker max-w-xl">
             <div className="ticker-track">
               <span className="text-white text-sm font-extralight mr-8">
