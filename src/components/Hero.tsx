@@ -29,7 +29,7 @@ const Hero = () => {
             </a>
 
             {/* News Ticker - Desktop (between logo and menu) */}
-            <div className="hidden lg:flex flex-1 mx-8 overflow-hidden">
+            <div className="hidden lg:flex flex-1 mx-8 overflow-hidden max-w-md">
               <div className="whitespace-nowrap animate-scroll">
                 <span className="text-white text-sm font-extralight">
                   🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
