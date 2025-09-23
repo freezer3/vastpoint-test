@@ -21,49 +21,47 @@ const Hero = () => {
 
       {/* Navigation Bar */}
       <nav className="relative z-30 px-6 py-8 md:px-8 lg:pl-[125px] lg:pr-12 lg:py-12">
-        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between max-w-5xl gap-4">
-          <div className="flex items-center justify-between">
-            {/* Logo */}
-            <a href="/" className="cursor-pointer">
-              <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
-            </a>
+        {/* Logo and Menu Row */}
+        <div className="flex items-center justify-between max-w-5xl mb-4">
+          {/* Logo */}
+          <a href="/" className="cursor-pointer">
+            <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
+          </a>
 
-
-            {/* Right Navigation Links - Desktop */}
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
-              <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
-              <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button 
-              className="md:hidden text-white p-2"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label="Toggle menu"
-            >
-              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
+          {/* Right Navigation Links - Desktop */}
+          <div className="hidden md:flex items-center space-x-8">
+            <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
+            <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
+            <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
           </div>
 
-          {/* News Ticker - All screen sizes (below logo and menu) */}
-          <div className="overflow-hidden max-w-md mx-auto">
-            <div className="whitespace-nowrap animate-scroll">
-              <span className="text-white text-sm font-extralight">
-                🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
-                <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
-                {' '}and{' '}
-                <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
-                {' • '}
-              </span>
-              <span className="text-white text-sm font-extralight">
-                🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
-                <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
-                {' '}and{' '}
-                <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
-                {' • '}
-              </span>
-            </div>
+          {/* Mobile Menu Button */}
+          <button 
+            className="md:hidden text-white p-2"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+
+        {/* News Ticker - Always on second line */}
+        <div className="overflow-hidden max-w-md mx-auto">
+          <div className="whitespace-nowrap animate-scroll">
+            <span className="text-white text-sm font-extralight">
+              🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
+              <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
+              {' '}and{' '}
+              <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+              {' • '}
+            </span>
+            <span className="text-white text-sm font-extralight">
+              🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
+              <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
+              {' '}and{' '}
+              <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+              {' • '}
+            </span>
           </div>
         </div>
 
