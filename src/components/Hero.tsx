@@ -45,43 +45,8 @@ const Hero = () => {
           </button>
         </div>
 
-        {/* News Ticker moved below into main content container */}
-
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="absolute top-full right-0 bg-black/40 backdrop-blur-md md:hidden rounded-lg shadow-xl border border-white/10">
-            <div className="flex flex-col space-y-4 p-6 text-right min-w-[200px]">
-              <a 
-                href="#team" 
-                className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Team
-              </a>
-              <a 
-                href="#about" 
-                className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </a>
-              <a 
-                href="https://vastpoint.substack.com/" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Insights
-              </a>
-            </div>
-          </div>
-        )}
-      </nav>
-
-      {/* News Ticker - positioned between logo and menu */}
-      <div className="relative z-30 px-6 md:px-8 lg:px-[125px] mb-8">
-        <div className="flex justify-center">
+        {/* News Ticker - positioned right below logo and menu */}
+        <div className="flex justify-center mt-6">
           <div className="ticker max-w-xl">
             <div className="ticker-track">
               <span className="text-white text-sm font-extralight mr-8">
@@ -115,7 +80,38 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
+
+        {/* Mobile Menu */}
+        {isMenuOpen && (
+          <div className="absolute top-full right-0 bg-black/40 backdrop-blur-md md:hidden rounded-lg shadow-xl border border-white/10">
+            <div className="flex flex-col space-y-4 p-6 text-right min-w-[200px]">
+              <a 
+                href="#team" 
+                className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Team
+              </a>
+              <a 
+                href="#about" 
+                className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About
+              </a>
+              <a 
+                href="https://vastpoint.substack.com/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Insights
+              </a>
+            </div>
+          </div>
+        )}
+      </nav>
 
       {/* Main Content Area */}
       <div className="relative z-20 flex-1 flex items-end mt-32">
