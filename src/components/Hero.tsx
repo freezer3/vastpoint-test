@@ -21,27 +21,43 @@ const Hero = () => {
 
       {/* Navigation Bar */}
       <nav className="relative z-30 px-6 py-8 md:px-8 lg:pl-[125px] lg:pr-12 lg:py-12">
-        <div className="flex items-center justify-between max-w-5xl">
-          {/* Logo */}
-          <a href="/" className="cursor-pointer">
-            <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
-          </a>
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between max-w-5xl gap-4">
+          <div className="flex items-center justify-between">
+            {/* Logo */}
+            <a href="/" className="cursor-pointer">
+              <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
+            </a>
 
-          {/* Right Navigation Links - Desktop */}
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
-            <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
-            <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
+            {/* News Ticker - Desktop (between logo and menu) */}
+            <div className="hidden lg:flex flex-1 mx-8 overflow-hidden">
+              <div className="whitespace-nowrap animate-scroll">
+                <span className="text-white text-sm font-extralight">NEW: vastpoint launches with $22m to invest in Poland's founders</span>
+              </div>
+            </div>
+
+            {/* Right Navigation Links - Desktop */}
+            <div className="hidden md:flex items-center space-x-8">
+              <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
+              <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
+              <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button 
+              className="md:hidden text-white p-2"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button 
-            className="md:hidden text-white p-2"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* News Ticker - Mobile (below logo and menu) */}
+          <div className="lg:hidden overflow-hidden">
+            <div className="whitespace-nowrap animate-scroll">
+              <span className="text-white text-sm font-extralight">NEW: vastpoint launches with $22m to invest in Poland's founders</span>
+            </div>
+          </div>
         </div>
 
         {/* Mobile Menu */}
