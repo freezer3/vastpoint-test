@@ -45,24 +45,26 @@ const Hero = () => {
           </button>
         </div>
 
-        {/* News Ticker - Always on second line, centered on page */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 w-full max-w-md">
-          <div className="overflow-hidden">
-            <div className="whitespace-nowrap animate-scroll">
-              <span className="text-white text-sm font-extralight">
-                🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
-                <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
-                {' '}and{' '}
-                <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
-                {' • '}
-              </span>
-              <span className="text-white text-sm font-extralight">
-                🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
-                <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
-                {' '}and{' '}
-                <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
-                {' • '}
-              </span>
+        {/* News Ticker - Always on second line, centered with main content */}
+        <div className="flex justify-center px-6 md:px-8 lg:px-[125px]">
+          <div className="w-full max-w-5xl">
+            <div className="max-w-md mx-auto overflow-hidden">
+              <div className="whitespace-nowrap animate-scroll">
+                <span className="text-white text-sm font-extralight">
+                  🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
+                  <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
+                  {' '}and{' '}
+                  <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+                  {' • '}
+                </span>
+                <span className="text-white text-sm font-extralight">
+                  🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
+                  <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
+                  {' '}and{' '}
+                  <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+                  {' • '}
+                </span>
+              </div>
             </div>
           </div>
         </div>

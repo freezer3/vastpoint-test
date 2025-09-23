@@ -130,7 +130,7 @@
 
   @keyframes scroll {
     0% {
-      transform: translateX(100%);
+      transform: translateX(50%);
     }
     100% {
       transform: translateX(-100%);
@@ -138,7 +138,7 @@
   }
 
   .animate-scroll {
-    animation: scroll 25s linear infinite;
+    animation: scroll 21s linear infinite;
     animation-delay: 0s;
     animation-fill-mode: both;
   }
