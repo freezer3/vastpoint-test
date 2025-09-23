@@ -45,9 +45,9 @@ const Hero = () => {
           </button>
         </div>
 
-        {/* News Ticker - Always on second line */}
-        <div className="w-full">
-          <div className="mx-auto max-w-md overflow-hidden">
+        {/* News Ticker - Always on second line, centered on page */}
+        <div className="absolute left-1/2 transform -translate-x-1/2 w-full max-w-md">
+          <div className="overflow-hidden">
             <div className="whitespace-nowrap animate-scroll">
               <span className="text-white text-sm font-extralight">
                 🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
