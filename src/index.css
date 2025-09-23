@@ -142,4 +142,18 @@
     animation-delay: 0s;
     animation-fill-mode: both;
   }
+
+  @keyframes ticker-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .ticker { overflow: hidden; }
+  .ticker-track {
+    display: inline-flex;
+    white-space: nowrap;
+    will-change: transform;
+    animation: ticker-scroll 21s linear infinite;
+  }
+
 }
