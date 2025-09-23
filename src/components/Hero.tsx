@@ -36,6 +36,14 @@ const Hero = () => {
                   <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
                   {' '}and{' '}
                   <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+                  {' • '}
+                </span>
+                <span className="text-white text-sm font-extralight">
+                  🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
+                  <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
+                  {' '}and{' '}
+                  <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+                  {' • '}
                 </span>
               </div>
             </div>
@@ -58,13 +66,21 @@ const Hero = () => {
           </div>
 
           {/* News Ticker - Mobile (below logo and menu) */}
-          <div className="lg:hidden overflow-hidden max-w-md">
+          <div className="lg:hidden overflow-hidden max-w-md mx-auto">
             <div className="whitespace-nowrap animate-scroll">
               <span className="text-white text-sm font-extralight">
                 🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
                 <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
                 {' '}and{' '}
                 <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+                {' • '}
+              </span>
+              <span className="text-white text-sm font-extralight">
+                🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
+                <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
+                {' '}and{' '}
+                <a href="https://www.vestbee.com/insights/articles/interview-with-vastpoint" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+                {' • '}
               </span>
             </div>
           </div>
