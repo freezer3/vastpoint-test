@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       {/* Navigation Bar */}
-      <nav className="relative z-30 px-6 py-8 md:px-8 lg:pl-[125px] lg:pr-12 lg:py-12">
+      <nav className="relative z-30 px-6 py-8 md:px-8 lg:pl-[125px] lg:pr-12 lg:py-12 relative">
         {/* Logo and Menu Row */}
         <div className="flex items-center justify-between max-w-5xl mb-4">
           {/* Logo */}
@@ -45,9 +45,9 @@ const Hero = () => {
           </button>
         </div>
 
-        {/* News Ticker - positioned right below logo and menu */}
-        <div className="flex justify-center mt-6">
-          <div className="ticker max-w-xl">
+        {/* News Ticker - centered between logo and menu */}
+        <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-full max-w-4xl">
+          <div className="ticker max-w-4xl mx-auto">
             <div className="ticker-track">
               <span className="text-white text-sm font-extralight mr-8">
                 🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
