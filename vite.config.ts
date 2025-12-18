@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // Set base path for GitHub Pages deployment
   // Repository: https://github.com/freezer3/vastpoint-test
-  base: mode === 'production' ? '/vastpoint-test/' : '/',
+  base: '/',
   server: {
     host: "::",
     port: 8080,
