@@ -12,7 +12,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/vastpoint-test">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
           {/* Catch-all route - serves Index for any path (SPA behavior) */}
