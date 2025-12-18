@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="flex items-center justify-between max-w-5xl mb-4">
           {/* Logo */}
           <a href="/" className="cursor-pointer">
-            <img src="/lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png" alt="Vastpoint Logo" className="h-6" />
+            <img src={`${import.meta.env.BASE_URL}lovable-uploads/839b146c-a5fa-407f-bfb8-f41fdac68225.png`} alt="Vastpoint Logo" className="h-6" />
           </a>
 
           {/* Right Navigation Links - Desktop */}
@@ -140,7 +140,7 @@ const Hero = () => {
                     <p className="text-white/70 font-light leading-relaxed">Partner</p>
                   </div>
                   <a href="https://www.linkedin.com/in/apedraszewska/" target="_blank" rel="noopener noreferrer" className="group">
-                    <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
+                    <img src={`${import.meta.env.BASE_URL}lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png`} alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -149,7 +149,7 @@ const Hero = () => {
                     <p className="text-white/70 font-light leading-relaxed">Partner</p>
                   </div>
                   <a href="https://www.linkedin.com/in/kkukielka/" target="_blank" rel="noopener noreferrer" className="group">
-                    <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
+                    <img src={`${import.meta.env.BASE_URL}lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png`} alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -158,7 +158,7 @@ const Hero = () => {
                     <p className="text-white/70 font-light leading-relaxed">Partner</p>
                   </div>
                   <a href="https://www.linkedin.com/in/zuzannabrzosko/" target="_blank" rel="noopener noreferrer" className="group">
-                    <img src="/lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png" alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
+                    <img src={`${import.meta.env.BASE_URL}lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png`} alt="LinkedIn" className="w-6 h-6 ml-4 transition-transform duration-300 group-hover:scale-110 group-hover:brightness-125" />
                   </a>
                 </div>
               </div>
@@ -213,9 +213,9 @@ const Hero = () => {
               {/* Partner Logos Block - wraps last on small screens */}
               <div className="flex-shrink-0 min-w-0 sm:order-2 w-full sm:w-auto">
                 <div className="flex items-center gap-4 flex-nowrap justify-center sm:justify-end">
-                  <img src="/lovable-uploads/d2915672-46ef-438d-80a0-1f9cbbc9b101.png" alt="European Union" className="h-10 object-contain flex-shrink-0" />
-                  <img src="/lovable-uploads/7fadd43e-f3ec-43e2-84e8-4c80075ca338.png" alt="Republic of Poland" className="h-10 object-contain flex-shrink-0" />
-                  <img src="/lovable-uploads/055b116b-4dc4-45c5-a099-00c806c43b49.png" alt="Partnership Logo" className="h-8 object-contain flex-shrink-0" />
+                  <img src={`${import.meta.env.BASE_URL}lovable-uploads/d2915672-46ef-438d-80a0-1f9cbbc9b101.png`} alt="European Union" className="h-10 object-contain flex-shrink-0" />
+                  <img src={`${import.meta.env.BASE_URL}lovable-uploads/7fadd43e-f3ec-43e2-84e8-4c80075ca338.png`} alt="Republic of Poland" className="h-10 object-contain flex-shrink-0" />
+                  <img src={`${import.meta.env.BASE_URL}lovable-uploads/055b116b-4dc4-45c5-a099-00c806c43b49.png`} alt="Partnership Logo" className="h-8 object-contain flex-shrink-0" />
                 </div>
               </div>
             </div>
