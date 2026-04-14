@@ -51,31 +51,23 @@ const Hero = () => {
             <div className="ticker w-full">
               <div className="ticker-track">
                 <span className="text-white text-sm font-extralight mr-8">
-                  🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
-                  <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
-                  {' '}and{' '}
-                  <a href="https://www.eu-startups.com/2025/09/the-new-e18-million-polish-fund-vastpoint-has-just-launched-led-by-ex-entrepreneurs-from-elevenlabs-and-y-combinator/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+                  🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
+                  <a href="https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
                   {' • '}
                 </span>
                 <span className="text-white text-sm font-extralight mr-8" aria-hidden="true">
-                  🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
-                  <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
-                  {' '}and{' '}
-                  <a href="https://www.eu-startups.com/2025/09/the-new-e18-million-polish-fund-vastpoint-has-just-launched-led-by-ex-entrepreneurs-from-elevenlabs-and-y-combinator/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+                  🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
+                  <a href="https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
                   {' • '}
                 </span>
                 <span className="text-white text-sm font-extralight mr-8" aria-hidden="true">
-                  🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
-                  <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
-                  {' '}and{' '}
-                  <a href="https://www.eu-startups.com/2025/09/the-new-e18-million-polish-fund-vastpoint-has-just-launched-led-by-ex-entrepreneurs-from-elevenlabs-and-y-combinator/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+                  🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
+                  <a href="https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
                   {' • '}
                 </span>
                 <span className="text-white text-sm font-extralight mr-8" aria-hidden="true">
-                  🎉 NEWS: vastpoint launches with $22m to invest in Poland's founders. Read more in{' '}
-                  <a href="https://mamstartup.pl/powstal-nowy-fundusz-vc-vastpoint-zainwestuje-22-mln-dolarow-w-startupy-z-polski-chcemy-byc-partnerem-a-nie-kolejnym-zadaniem-do-ogarniecia/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Polish</a>
-                  {' '}and{' '}
-                  <a href="https://www.eu-startups.com/2025/09/the-new-e18-million-polish-fund-vastpoint-has-just-launched-led-by-ex-entrepreneurs-from-elevenlabs-and-y-combinator/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">English</a>
+                  🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
+                  <a href="https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
                   {' • '}
                 </span>
               </div>
@@ -185,7 +177,7 @@ const Hero = () => {
               <div>
                 <h2 className="text-white text-lg font-light tracking-wide mb-6">Playbook for every stage</h2>
                 <div>
-                  <p className="text-white/70 font-light leading-relaxed">We've built and scaled companies ourselves. We know the highs, the chaos, and the grit it really takes. We are not afraid to take risks and stand by you when we need us most.</p>
+                  <p className="text-white/70 font-light leading-relaxed">We've built and scaled companies ourselves. We know the highs, the chaos, and the grit it really takes. We are not afraid to take risks and stand by you when you need us most.</p>
                 </div>
               </div>
             </div>
