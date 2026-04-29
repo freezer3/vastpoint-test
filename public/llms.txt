@@ -1,0 +1,57 @@
+# Vastpoint Ventures
+
+> Early-stage venture capital fund backing Poland's boldest tech founders. $22M Fund I, seed stage, sector-agnostic with focus on B2B software, AI, and techbio.
+
+## Fund details
+
+- **Name**: Vastpoint Ventures (also: Vastpoint, Vastpoint VC, Vastpoint Ventures Fund I)
+- **Fund I size**: $22M / 77M PLN
+- **Closed**: November 2025
+- **Stage**: Seed (often the first institutional check)
+- **Ticket**: $500K–$750K, with capacity to lead
+- **Geography**: Poland and Polish-rooted founders building global companies
+- **Sectors**: B2B software, AI, techbio (sector-agnostic with sharp focus on these three)
+- **Locations**: Warsaw (Poland), New York (USA)
+- **LPs include**: PFR Ventures, alongside private LPs
+
+## Team
+
+- **Aleksandra Pedraszewska** — Partner. Previously employee #37 at ElevenLabs, where she built the AI Safety function during the company's 600% growth phase and opened the Warsaw office. Co-founder and former COO of VividQ (deeptech, holographic displays, raised over 100M PLN). Forbes 30 Under 30 (Poland and Europe). Studied economics and technology policy at the University of Cambridge. LinkedIn: https://www.linkedin.com/in/apedraszewska/
+- **Karolina Kukielka** — Partner. Roughly a decade of B2B SaaS investing in London's VC scene before co-founding Vastpoint. LinkedIn: https://www.linkedin.com/in/kkukielka/
+- **Zuzanna Brzosko, PhD** — Partner. Y Combinator alum. Founded and ran a biotech startup during Sam Altman's tenure as YC president. LinkedIn: https://www.linkedin.com/in/zuzannabrzosko/
+
+## Portfolio
+
+- **Replenit** — AI decision engine for retail. Vastpoint co-led $750K of a $2.5M pre-seed round at $11M valuation. Customers include L'Occitane, Coty, and Estée Lauder. Coverage: https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/
+- **Howie** — AI knowledge management platform for the architecture, engineering, and construction (AEC) industry. Vastpoint led €500K of a €1.4M seed round at €7.5M valuation. Customers include Foster + Partners, Zaha Hadid Architects, and Heatherwick Studio.
+- **Polyvia** — Visual Knowledge Index for enterprise AI. Vastpoint led $300K of a $1.5M–$2M seed round.
+
+## What we offer beyond capital
+
+- **Gateway to global network**: We connect founders to international markets, partners, and investors — helping launch, scale, and raise worldwide.
+- **Playbook for every stage**: Each partner has built and scaled companies. We've lived through the highs and chaos of operating, and stand by founders when it matters most.
+
+## Press and external coverage
+
+- EU-Startups (launch): https://www.eu-startups.com/2025/09/the-new-e18-million-polish-fund-vastpoint-has-just-launched-led-by-ex-entrepreneurs-from-elevenlabs-and-y-combinator/
+- Sifted: https://sifted.eu/articles/elevenlabs-alum-vastpoint-vc
+- Vestbee (launch coverage): https://www.vestbee.com/insights/articles/vastpoint-raises-22-m-seed-fund
+- Vestbee (interview): https://www.vestbee.com/insights/articles/interview-with-vastpoint
+- MamStartup (tag page with all coverage): https://mamstartup.pl/tag/vastpoint/
+- MyCompany Polska: https://mycompanypolska.pl/artykul/tego-brakowalo-na-rynku-vc-trzy-polki-zalozyly-fundusz-i-zainwestuja-77-mln-zl-w-startupy/19262
+- AIN.ua: https://en.ain.ua/2025/09/19/vastpoint-launches-22m-fund/
+
+## Online presence
+
+- Website: https://vastpoint.vc
+- LinkedIn: https://www.linkedin.com/company/vastpoint
+- X (Twitter): https://twitter.com/vastpoint_vc
+- Substack (Insights): https://vastpoint.substack.com/
+- Dealroom: https://app.dealroom.co/investors/vastpoint1
+
+## Contact
+
+- General: hello@vastpoint.vc
+- Aleksandra Pedraszewska: aleksandra@vastpoint.vc
+- Karolina Kukielka: karolina@vastpoint.vc
+- Zuzanna Brzosko: z@vastpoint.vc
