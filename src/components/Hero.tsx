@@ -52,22 +52,22 @@ const Hero = () => {
               <div className="ticker-track">
                 <span className="text-white text-sm font-extralight mr-8">
                   🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
-                  <a href="https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
+                  <a href="https://www.vestbee.com/insights/articles/replenit-secures-2-5-m" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
                   {' • '}
                 </span>
                 <span className="text-white text-sm font-extralight mr-8" aria-hidden="true">
                   🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
-                  <a href="https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
+                  <a href="https://www.vestbee.com/insights/articles/replenit-secures-2-5-m" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
                   {' • '}
                 </span>
                 <span className="text-white text-sm font-extralight mr-8" aria-hidden="true">
                   🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
-                  <a href="https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
+                  <a href="https://www.vestbee.com/insights/articles/replenit-secures-2-5-m" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
                   {' • '}
                 </span>
                 <span className="text-white text-sm font-extralight mr-8" aria-hidden="true">
                   🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
-                  <a href="https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
+                  <a href="https://www.vestbee.com/insights/articles/replenit-secures-2-5-m" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
                   {' • '}
                 </span>
               </div>
