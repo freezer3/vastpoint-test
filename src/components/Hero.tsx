@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Award, Linkedin, Menu, X } from 'lucide-react';
+import Investments from './Investments';
+import Perks from './Perks';
 const Hero = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -31,6 +33,7 @@ const Hero = () => {
           {/* Right Navigation Links - Desktop */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#team" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Team</a>
+            <a href="#investments" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Investments</a>
             <a href="#about" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">About</a>
             <a href="https://vastpoint.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide">Insights</a>
           </div>
@@ -45,36 +48,6 @@ const Hero = () => {
           </button>
         </div>
 
-        {/* News Ticker - same width as footer line */}
-        <div className="mt-6">
-          <div className="max-w-5xl">
-            <div className="ticker w-full">
-              <div className="ticker-track">
-                <span className="text-white text-sm font-extralight mr-8">
-                  🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
-                  <a href="https://www.vestbee.com/insights/articles/replenit-secures-2-5-m" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
-                  {' • '}
-                </span>
-                <span className="text-white text-sm font-extralight mr-8" aria-hidden="true">
-                  🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
-                  <a href="https://www.vestbee.com/insights/articles/replenit-secures-2-5-m" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
-                  {' • '}
-                </span>
-                <span className="text-white text-sm font-extralight mr-8" aria-hidden="true">
-                  🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
-                  <a href="https://www.vestbee.com/insights/articles/replenit-secures-2-5-m" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
-                  {' • '}
-                </span>
-                <span className="text-white text-sm font-extralight mr-8" aria-hidden="true">
-                  🎉 NEWS: vastpoint co-leads $2.5M pre-seed round of Replenit.{' '}
-                  <a href="https://www.vestbee.com/insights/articles/replenit-secures-2-5-m" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">Read more</a>
-                  {' • '}
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="absolute top-full right-0 bg-black/40 backdrop-blur-md md:hidden rounded-lg shadow-xl border border-white/10">
@@ -85,6 +58,13 @@ const Hero = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Team
+              </a>
+              <a 
+                href="#investments" 
+                className="text-white/80 hover:text-white transition-colors duration-300 font-light tracking-wide"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Investments
               </a>
               <a 
                 href="#about" 
@@ -123,7 +103,7 @@ const Hero = () => {
             </div>
 
             {/* Team Section */}
-            <div id="team" className="mb-12 py-12">
+            <div id="team" className="py-12">
               <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-light tracking-wide mb-8">Team</h2>
               <div className="space-y-2 px-0 w-[320px]">
                 <div className="flex items-center">
@@ -156,6 +136,9 @@ const Hero = () => {
               </div>
             </div>
 
+            {/* Investments Section */}
+            <Investments />
+
             {/* Duplicate Headline Block */}
             <div id="about" className="mb-12">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-none mb-8 max-w-5xl">
@@ -163,8 +146,8 @@ const Hero = () => {
               </h1>
             </div>
 
-            {/* Two Blocks Side by Side */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-12 max-w-5xl">
+            {/* Three Blocks Side by Side */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-12 max-w-5xl">
               {/* Gateway to global network Block */}
               <div>
                 <h2 className="text-white text-lg font-light tracking-wide mb-6">Gateway to global network</h2>
@@ -180,6 +163,9 @@ const Hero = () => {
                   <p className="text-white/70 font-light leading-relaxed">We've built and scaled companies ourselves. We know the highs, the chaos, and the grit it really takes. We are not afraid to take risks and stand by you when you need us most.</p>
                 </div>
               </div>
+
+              {/* Perks we unlock Block */}
+              <Perks />
             </div>
 
             {/* Animated Line */}
@@ -200,6 +186,10 @@ const Hero = () => {
               <div className="flex-shrink-0 min-w-0 sm:order-1">
                 <h2 className="text-white tracking-wide mb-2 text-sm font-medium">Contact us</h2>
                 <a href="mailto:hello@vastpoint.vc" className="text-white text-sm font-extralight hover:text-white/80 transition-colors duration-300">hello@vastpoint.vc</a>
+                <a href="https://www.linkedin.com/company/vastpoint" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 mt-2 text-white text-sm font-extralight hover:text-white/80 transition-colors duration-300">
+                  <img src={`${import.meta.env.BASE_URL}lovable-uploads/35473851-df84-43b6-ab1d-1bb4ad5676d5.png`} alt="" className="w-4 h-4 transition-transform duration-300 group-hover:scale-110" />
+                  LinkedIn
+                </a>
               </div>
 
               {/* Partner Logos Block - wraps last on small screens */}
