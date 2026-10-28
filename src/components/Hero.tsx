@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Award, Linkedin, Menu, X } from 'lucide-react';
+import CoInvestors from './CoInvestors';
 import Investments from './Investments';
 import Perks from './Perks';
 const Hero = () => {
@@ -135,6 +136,9 @@ const Hero = () => {
                 </div>
               </div>
             </div>
+
+            {/* Co-investors Section */}
+            <CoInvestors />
 
             {/* Investments Section */}
             <Investments />

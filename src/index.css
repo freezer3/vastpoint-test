@@ -234,3 +234,15 @@
   .inv-minimal .inv-front { gap: 1.25rem !important; }
   .inv-minimal .inv-mark img { max-width: 120px !important; }
 }
+
+/* Co-investor logo strip */
+.co-grid { gap: 2.5rem 2rem; }
+@media (min-width: 1024px) { .co-grid { column-gap: 2.75rem; flex-wrap: nowrap; } }
+.co-mark { height: 64px; opacity: 0.75; transition: opacity 0.3s ease; }
+.co-mark:hover, .co-mark:focus-visible { opacity: 1; }
+.co-mark img { width: auto; max-width: 160px; object-fit: contain; object-position: left center; }
+@media (max-width: 639px) {
+  .co-grid { gap: 1.5rem 1.5rem; }
+  .co-mark { height: 40px; }
+  .co-mark img { max-width: 130px; transform: scale(0.85); transform-origin: left center; }
+}
