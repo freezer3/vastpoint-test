@@ -99,8 +99,8 @@ const Hero = () => {
           {/* Content Row */}
           <div className="max-w-5xl">
             {/* Subheader */}
-            <div className="max-w-[560px] mb-8 pt-8 md:pt-0">
-              <h2 className="text-white/70 font-light leading-relaxed text-lg">Groundbreaking tech. Unstoppable teams. Shaking up stagnant industries. At vastpoint, we look for your unfair advantage. We are sector agnostic with a sharp focus on B2B software, AI, and techbio.</h2>
+            <div className="max-w-[640px] mb-8 pt-8 md:pt-0">
+              <h2 className="text-white/70 font-light leading-relaxed text-lg">Groundbreaking tech. Unstoppable teams. Shaking up stagnant industries. At vastpoint, we look for your unfair advantage. We are a sector agnostic $22m fund, with a sharp focus on AI, techbio and deeptech.</h2>
             </div>
 
             {/* Team Section */}
