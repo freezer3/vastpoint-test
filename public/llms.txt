@@ -1,6 +1,6 @@
 # Vastpoint Ventures
 
-> Early-stage venture capital fund backing Poland's boldest tech founders. $22M Fund I, seed stage, sector-agnostic with focus on B2B software, AI, and techbio.
+> Early-stage venture capital fund backing Poland's boldest tech founders. $22M Fund I, seed stage, sector-agnostic with focus on AI, techbio and deeptech.
 
 ## Fund details
 
@@ -11,7 +11,7 @@
 - **Ticket**: $500K-$750K, with capacity to lead
 - **Minimum round**: $1.5M total round size
 - **Geography**: Poland and Polish-rooted founders building global companies; active across CEE (Central and Eastern Europe)
-- **Sectors**: B2B software, AI (artificial intelligence), techbio (sector-agnostic but sharpest focus on these three)
+- **Sectors**: AI (artificial intelligence), techbio, deeptech (sector-agnostic but sharpest focus on these three)
 - **Locations**: Warsaw, Poland (HQ) and New York, USA
 - **LPs include**: PFR Ventures (Polish Development Fund), alongside private LPs
 
@@ -32,7 +32,7 @@
 Vastpoint backs founders who:
 - Are building globally competitive companies from Poland or CEE
 - Have early traction and a clear path to scale
-- Are operating in B2B software, AI, or techbio
+- Are operating in AI, techbio or deeptech
 - Are raising a seed round of at least $1.5M in total
 
 Vastpoint is especially well-suited for founders who need:
