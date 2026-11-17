@@ -31,7 +31,7 @@ const investments: Investment[] = [
     note: 'Co-led $2.5M round · 2026',
     link: { href: 'https://replen.it', label: 'replen.it' },
   },
-  { name: null, tba: true, stage: 'Seed', location: 'Switzerland', description: 'Announcement to follow.', note: '2026' },
+  { name: null, tba: true, stage: 'Pre-seed', location: 'USA', description: 'Announcement to follow.', note: '2026' },
   { name: null, stage: 'Pre-seed', location: 'Poland', description: 'Announcement to follow.', note: '2026' },
   { name: null, stage: 'Seed', location: 'USA', description: 'Announcement to follow.', note: '2026' },
   { name: null, stage: 'Seed', location: 'USA', description: 'Announcement to follow.', note: '2026' },
