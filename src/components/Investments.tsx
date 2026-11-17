@@ -8,7 +8,17 @@ type Investment = {
   description: string;
   link?: { href: string; label: string };
   note?: string;
+  tba?: boolean; // name withheld until announcement
 };
+
+// Small chevron hinting that the tile reveals a back side; turns over on hover/open
+const FlipHint = () => (
+  <span className="flip-hint" aria-hidden="true">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M6 15 12 9l6 6" />
+    </svg>
+  </span>
+);
 
 const investments: Investment[] = [
   {
@@ -21,6 +31,7 @@ const investments: Investment[] = [
     note: 'Co-led $2.5M round · 2026',
     link: { href: 'https://replen.it', label: 'replen.it' },
   },
+  { name: null, tba: true, stage: 'Seed', location: 'Switzerland', description: 'Announcement to follow.', note: '2026' },
   { name: null, stage: 'Pre-seed', location: 'Poland', description: 'Announcement to follow.', note: '2026' },
   { name: null, stage: 'Seed', location: 'USA', description: 'Announcement to follow.', note: '2026' },
   { name: null, stage: 'Seed', location: 'USA', description: 'Announcement to follow.', note: '2026' },
@@ -59,18 +70,19 @@ const Tile = ({ item }: { item: Investment }) => {
               <span className="text-white text-2xl md:text-3xl font-light tracking-wide">{item.name}</span>
             ) : (
               <span className="inv-undisclosed text-white/50 text-xs font-extralight uppercase tracking-[0.2em] border border-dashed border-white/25 px-3 py-2">
-                Undisclosed
+                {item.tba ? 'To be announced' : 'Undisclosed'}
               </span>
             )}
           </div>
           <p className="text-white/70 text-sm font-extralight whitespace-nowrap">
             {item.stage} <span className="text-white/40">·</span> {item.location}
+            <FlipHint />
           </p>
         </div>
 
         {/* Back */}
         <div className="flip-face flip-back inv-back flex flex-col p-4 sm:p-5">
-          {!item.name && <p className="text-white text-base sm:text-lg font-light tracking-wide mb-1 sm:mb-3">In stealth</p>}
+          {!item.name && <p className="text-white text-base sm:text-lg font-light tracking-wide mb-1 sm:mb-3">{item.tba ? 'Coming soon' : 'In stealth'}</p>}
           <p className={`font-light leading-snug sm:leading-relaxed flex-1 ${item.name ? 'text-white/90 text-sm sm:text-base' : 'text-white/70 text-sm'}`}>{item.description}</p>
           <div className="inv-foot flex flex-row justify-between items-baseline gap-2 pt-2 sm:flex-col sm:justify-start sm:items-stretch sm:gap-1 sm:pt-3 border-t border-white/10 text-sm font-extralight">
             <span className="text-white/70">{item.note}</span>
@@ -97,7 +109,7 @@ const MINIMAL = true;
 const Investments = () => (
   <div id="investments" className={`mb-12 py-12 ${MINIMAL ? 'inv-minimal' : ''}`}>
     <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-light tracking-wide mb-8">Investments</h2>
-    <div className="inv-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-t border-l border-white/25">
+    <div className="inv-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 border-t border-l border-white/25">
       {investments.map((item, i) => (
         <Tile key={i} item={item} />
       ))}

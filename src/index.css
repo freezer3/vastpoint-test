@@ -235,6 +235,19 @@
   .inv-minimal .inv-mark img { max-width: 120px !important; }
 }
 
+/* Flip hint chevron (next to stage · location) */
+.flip-hint {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: -3px;
+  color: rgba(255,255,255,0.6);
+  transition: transform 0.45s ease, color 0.3s ease;
+}
+.flip-tile.is-open .flip-hint { color: rgba(255,255,255,0.9); transform: rotate(180deg); }
+@media (hover: hover) and (pointer: fine) {
+  .flip-tile:hover .flip-hint { color: rgba(255,255,255,0.9); transform: rotate(180deg); }
+}
+
 /* Co-investor logo strip */
 .co-grid { gap: 2.5rem 2rem; }
 @media (min-width: 1024px) { .co-grid { column-gap: 2.75rem; flex-wrap: nowrap; } }
