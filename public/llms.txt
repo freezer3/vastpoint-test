@@ -23,9 +23,8 @@
 
 ## Portfolio
 
-- **Replenit** — AI decision engine for retail. Helps consumer goods brands optimise sales decisions using artificial intelligence. Vastpoint co-led $750K of a $2.5M pre-seed round at $11M valuation. Customers include L'Occitane, Coty, and Estee Lauder. Coverage: https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/
-- **Howie** — AI knowledge management platform purpose-built for the architecture, engineering, and construction (AEC) industry. Vastpoint led EUR 500K of a EUR 1.4M seed round at EUR 7.5M valuation. Customers include Foster + Partners, Zaha Hadid Architects, and Heatherwick Studio.
-- **Polyvia** — Visual Knowledge Index for enterprise AI. Enables enterprises to make visual and unstructured data searchable and usable by AI systems. Vastpoint led $300K of a $1.5M-$2M seed round.
+- **Replenit** — AI decision engine for retail. Helps consumer goods brands optimise sales decisions using artificial intelligence. Vastpoint co-led the $2.5M pre-seed round. Customers include L'Occitane, Coty, and Estee Lauder. Coverage: https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/
+- **Tasted** (formerly mysite.ai) — AI-powered restaurant discovery startup with offices in Los Angeles and Warsaw. Vastpoint joined the $6.5M round (2026) alongside BADideas.fund, Level2 Ventures, Inovo.vc and Sunfish Partners. Coverage: https://tech.eu/2026/11/24/polish-foodtech-tasted-raises-65m-as-it-launches-in-los-angeles/
 
 ## What founders should know
 
@@ -60,7 +59,7 @@ A: Vastpoint focuses on Polish and Polish-rooted founders. The company does not 
 A: Vastpoint moves quickly when there is conviction. Timeline varies but the fund aims to complete due diligence within 6-8 weeks of an initial meeting.
 
 **Q: Does Vastpoint lead rounds or co-invest?**
-A: Vastpoint can lead seed rounds and has done so (Howie, Polyvia). The fund also co-leads (Replenit). Vastpoint does not typically take a passive follower position at seed.
+A: Vastpoint can lead rounds, has co-led (Replenit) and has invested alongside other funds (Tasted). Vastpoint does not typically take a passive follower position at seed.
 
 **Q: What does Vastpoint's due diligence process look like?**
 A: Initial screening call (30-45 min), followed by a deeper technical and commercial diligence call. Reference calls with customers and early team members. IC (investment committee) decision typically within 2-4 weeks of the second call.
@@ -75,6 +74,7 @@ A: Initial screening call (30-45 min), followed by a deeper technical and commer
 - MyCompany Polska: https://mycompanypolska.pl/artykul/tego-brakowalo-na-rynku-vc-trzy-polki-zalozyly-fundusz-i-zainwestuja-77-mln-zl-w-startupy/19262
 - AIN.ua: https://en.ain.ua/2025/09/19/vastpoint-launches-22m-fund/
 - Replenit portfolio announcement: https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/
+- Tasted portfolio announcement (tech.eu, Nov 2026): https://tech.eu/2026/11/24/polish-foodtech-tasted-raises-65m-as-it-launches-in-los-angeles/
 
 ## Online presence
 
