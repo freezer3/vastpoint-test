@@ -155,6 +155,12 @@
     will-change: transform;
     animation: ticker-scroll 21s linear infinite;
   }
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track { animation: none; display: block; white-space: normal; will-change: auto; }
+    .ticker-track [aria-hidden="true"] { display: none; }
+  }
+  .ticker:hover .ticker-track { animation-play-state: paused; }
+  .ticker:focus-within .ticker-track { animation: none; }
 
 }
 /* Investments flip tiles */
@@ -218,6 +224,7 @@
 .inv-minimal .inv-front { flex-direction: column !important; align-items: flex-start !important; justify-content: flex-start; gap: 1.75rem !important; }
 .inv-minimal .inv-mark { flex: 0 0 auto !important; height: 56px; justify-content: flex-start !important; }
 .inv-minimal .inv-mark img { max-width: 170px !important; transform: translateX(-10%); }
+.inv-minimal .inv-mark img.inv-logo-stacked { height: 100%; width: auto; max-width: none !important; transform: none; }
 .inv-minimal .inv-undisclosed { border: 0; padding: 0; }
 .inv-minimal .inv-back { transform: none; opacity: 0; }
 .inv-minimal .inv-foot { border-top: 0; padding-top: 0; }

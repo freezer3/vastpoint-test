@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Award, Linkedin, Menu, X } from 'lucide-react';
 import CoInvestors from './CoInvestors';
 import Investments from './Investments';
+import NewsTicker from './NewsTicker';
 import Perks from './Perks';
 const Hero = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,6 +49,9 @@ const Hero = () => {
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
+
+        {/* News Ticker */}
+        <NewsTicker />
 
         {/* Mobile Menu */}
         {isMenuOpen && (

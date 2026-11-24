@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 type Investment = {
   name: string | null; // null = undisclosed
   logo?: string; // path under public/
+  logoClass?: string; // size override for marks that are not wide wordmarks
   stage: string;
   location: string;
   description: string;
@@ -31,9 +32,19 @@ const investments: Investment[] = [
     note: 'Co-led $2.5M round · 2026',
     link: { href: 'https://replen.it', label: 'replen.it' },
   },
+  {
+    name: 'Tasted',
+    logo: 'logos/tasted.png',
+    logoClass: 'inv-logo-stacked',
+    stage: 'Seed',
+    location: 'USA',
+    description:
+      'AI that changes how people decide where to eat and how restaurants win their guests.',
+    note: '$6.5M round · 2026',
+    link: { href: 'https://jointasted.com', label: 'jointasted.com' },
+  },
   { name: null, tba: true, stage: 'Pre-seed', location: 'USA', description: 'Announcement to follow.', note: '2026' },
   { name: null, stage: 'Pre-seed', location: 'Poland', description: 'Announcement to follow.', note: '2026' },
-  { name: null, stage: 'Seed', location: 'USA', description: 'Announcement to follow.', note: '2026' },
   { name: null, stage: 'Seed', location: 'USA', description: 'Announcement to follow.', note: '2026' },
 ];
 
@@ -65,7 +76,7 @@ const Tile = ({ item }: { item: Investment }) => {
         <div className="flip-face inv-front flex flex-row items-center gap-4 px-4 py-3 sm:flex-col sm:items-stretch sm:gap-0 sm:p-5">
           <div className="inv-mark flex-1 flex items-center justify-start sm:justify-center">
             {item.logo ? (
-              <img src={`${import.meta.env.BASE_URL}${item.logo}`} alt={item.name ?? ''} className="w-full max-w-[130px] sm:max-w-[260px] h-auto" />
+              <img src={`${import.meta.env.BASE_URL}${item.logo}`} alt={item.name ?? ''} className={item.logoClass ?? 'w-full max-w-[130px] sm:max-w-[260px] h-auto'} />
             ) : item.name ? (
               <span className="text-white text-2xl md:text-3xl font-light tracking-wide">{item.name}</span>
             ) : (
