@@ -266,3 +266,12 @@
   .co-mark { height: 40px; }
   .co-mark img { max-width: 130px; transform: scale(0.85); transform-origin: left center; }
 }
+
+/* Hero: keep headline and subheader fully above the fold in desktop browsers */
+@media (min-width: 768px) {
+  .hero-main { margin-top: clamp(0.5rem, calc(100vh - 590px), 8rem); }
+  h1.hero-title { font-size: clamp(2.5rem, min(4.5rem, calc((100vh - 300px) / 3)), 4.5rem); margin-bottom: 1.5rem; }
+}
+@media (min-width: 1024px) {
+  h1.hero-title { font-size: clamp(2.5rem, min(6rem, calc((100vw - 173px) / 9.4), calc((100vh - 310px) / 3)), 6rem); }
+}

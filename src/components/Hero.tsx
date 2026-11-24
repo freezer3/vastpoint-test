@@ -93,10 +93,10 @@ const Hero = () => {
       </nav>
 
       {/* Main Content Area */}
-      <div className="relative z-20 flex-1 flex items-end mt-32">
+      <div className="hero-main relative z-20 flex-1 flex items-end mt-32">
         <div className="px-6 pb-8 md:px-8 lg:pb-12 lg:pl-[125px] lg:pr-12 w-full" style={{ paddingBottom: 'calc(2rem + 30px)' }}>
           {/* Headline */}
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8 max-w-5xl">
+          <h1 className="hero-title text-6xl md:text-7xl lg:text-8xl font-light leading-none mb-8 max-w-5xl">
             <div className="text-white">We are an early-stage fund backing Poland's boldest tech founders</div>
           </h1>
 
