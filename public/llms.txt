@@ -25,6 +25,7 @@
 
 - **Replenit** — AI decision engine for retail. Helps consumer goods brands optimise sales decisions using artificial intelligence. Vastpoint co-led the $2.5M pre-seed round. Customers include L'Occitane, Coty, and Estee Lauder. Coverage: https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/
 - **Tasted** (formerly mysite.ai) — AI-powered restaurant discovery startup with offices in Los Angeles and Warsaw. Vastpoint joined the $6.5M round (2026) alongside BADideas.fund, Level2 Ventures, Inovo.vc and Sunfish Partners. Coverage: https://tech.eu/2026/11/24/polish-foodtech-tasted-raises-65m-as-it-launches-in-los-angeles/
+- **WaterSense** — Water intelligence infrastructure for industrial sites, utilities and cities: autonomous monitoring stations plus an AI platform predicting water-quality changes up to 72 hours ahead. Global winner of the James Dyson Award 2025 (Sustainability). Raised EUR 5.75M (2026), combining a pre-seed round co-led by b2venture and Movens Capital with participation from Vastpoint, and NCBR grants. Coverage: https://water-sense.com/news/watersense-raises-5-75m-pre-seed
 
 ## What founders should know
 
@@ -59,7 +60,7 @@ A: Vastpoint focuses on Polish and Polish-rooted founders. The company does not 
 A: Vastpoint moves quickly when there is conviction. Timeline varies but the fund aims to complete due diligence within 6-8 weeks of an initial meeting.
 
 **Q: Does Vastpoint lead rounds or co-invest?**
-A: Vastpoint can lead rounds, has co-led (Replenit) and has invested alongside other funds (Tasted). Vastpoint does not typically take a passive follower position at seed.
+A: Vastpoint can lead rounds, has co-led (Replenit) and has invested alongside other funds (Tasted, WaterSense). Vastpoint does not typically take a passive follower position at seed.
 
 **Q: What does Vastpoint's due diligence process look like?**
 A: Initial screening call (30-45 min), followed by a deeper technical and commercial diligence call. Reference calls with customers and early team members. IC (investment committee) decision typically within 2-4 weeks of the second call.
@@ -75,6 +76,7 @@ A: Initial screening call (30-45 min), followed by a deeper technical and commer
 - AIN.ua: https://en.ain.ua/2025/09/19/vastpoint-launches-22m-fund/
 - Replenit portfolio announcement: https://www.founderstoday.news/replenit-secures-over-2m-pre-seed-funding/
 - Tasted portfolio announcement (tech.eu, Nov 2026): https://tech.eu/2026/11/24/polish-foodtech-tasted-raises-65m-as-it-launches-in-los-angeles/
+- WaterSense portfolio announcement (Nov 2026): https://water-sense.com/news/watersense-raises-5-75m-pre-seed
 
 ## Online presence
 

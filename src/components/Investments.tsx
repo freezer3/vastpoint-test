@@ -43,8 +43,17 @@ const investments: Investment[] = [
     note: '$6.5M round · 2026',
     link: { href: 'https://jointasted.com', label: 'jointasted.com' },
   },
+  {
+    name: 'WaterSense',
+    logo: 'logos/watersense.png',
+    stage: 'Pre-seed',
+    location: 'Poland',
+    description:
+      'Autonomous monitoring stations and AI that make water quality measurable and predictable in real time.',
+    note: '€5.75M raised · 2026',
+    link: { href: 'https://water-sense.com', label: 'water-sense.com' },
+  },
   { name: null, tba: true, stage: 'Pre-seed', location: 'USA', description: 'Announcement to follow.', note: '2026' },
-  { name: null, stage: 'Pre-seed', location: 'Poland', description: 'Announcement to follow.', note: '2026' },
   { name: null, stage: 'Seed', location: 'USA', description: 'Announcement to follow.', note: '2026' },
 ];
 
