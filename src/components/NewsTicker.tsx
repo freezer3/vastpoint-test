@@ -1,3 +1,5 @@
+import type React from 'react';
+
 const NEWS = [
   {
     text: '🎉 NEWS: vastpoint joins €5.75m funding round of WaterSense, James Dyson Award-winning water intelligence startup.',
@@ -11,12 +13,14 @@ const NEWS = [
 
 // The track scrolls by half its width, so an even number of identical copies loops seamlessly.
 const COPIES = 4;
+// Seconds of scroll per news item, so speed stays the same as items are added
+const SECONDS_PER_ITEM = 30;
 
 const NewsTicker = () => (
   <div className="mt-6">
     <div className="max-w-5xl">
       <div className="ticker w-full">
-        <div className="ticker-track">
+        <div className="ticker-track" style={{ '--ticker-duration': `${NEWS.length * SECONDS_PER_ITEM}s` } as React.CSSProperties}>
           {Array.from({ length: COPIES }, (_, i) =>
             NEWS.map((item, j) => (
               <span key={`${i}-${j}`} className="text-white text-sm font-extralight mr-8" aria-hidden={i > 0 || undefined}>
