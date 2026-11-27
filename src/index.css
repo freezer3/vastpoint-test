@@ -216,7 +216,10 @@
   border: 1px solid rgba(255,255,255,0.07);
   border-radius: 0;
   aspect-ratio: auto;
-  height: 210px;
+  height: auto;
+  min-height: 210px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
   perspective: none;
   overflow: hidden;
   background: rgba(255,255,255,0.03);
@@ -229,8 +232,12 @@
 @media (hover: hover) and (pointer: fine) {
   .inv-minimal .flip-tile:hover { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.12); }
 }
-.inv-minimal .flip-card { transform: none !important; transition: none; z-index: 1; }
+.inv-minimal .flip-card { transform: none !important; transition: none; z-index: 1; position: relative; inset: auto; display: grid; grid-template-columns: minmax(0, 1fr); }
+/* Both faces share one grid cell: the tile grows to the taller face, so text is never clipped at narrow widths */
 .inv-minimal .flip-face {
+  position: relative;
+  inset: auto;
+  grid-area: 1 / 1;
   padding: 1.25rem !important;
   background: transparent;
   backdrop-filter: none;
@@ -239,7 +246,7 @@
 }
 .inv-minimal .inv-front { flex-direction: column !important; align-items: center !important; justify-content: center; gap: 1.5rem !important; text-align: center; }
 .inv-minimal .inv-mark { flex: 0 0 auto !important; height: 56px; width: 100%; justify-content: center !important; }
-.inv-minimal .inv-mark img { max-width: 160px !important; max-height: 100%; width: auto; transform: none; }
+.inv-minimal .inv-mark img { max-width: min(160px, 100%) !important; max-height: 100%; width: auto; transform: none; }
 .inv-minimal .inv-mark img.inv-logo-stacked { height: 100%; width: auto; max-width: none !important; transform: none; }
 .inv-minimal .inv-undisclosed { border: 0; padding: 0; }
 .inv-minimal .inv-back { transform: none; opacity: 0; }
@@ -254,11 +261,11 @@
 }
 @media (max-width: 639px) {
   .inv-minimal .inv-grid { gap: 0.875rem; }
-  .inv-minimal .flip-tile { height: 128px; }
+  .inv-minimal .flip-tile { min-height: 128px; }
   .inv-minimal .flip-face { padding: 1rem !important; }
   .inv-minimal .inv-mark { height: 40px; }
   .inv-minimal .inv-front { gap: 1rem !important; }
-  .inv-minimal .inv-mark img { max-width: 120px !important; }
+  .inv-minimal .inv-mark img { max-width: min(120px, 100%) !important; }
 }
 @media (prefers-reduced-motion: reduce) {
   .inv-minimal .flip-tile { transition: none; }
